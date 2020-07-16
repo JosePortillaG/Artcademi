@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "paytone1";
+  src: url(../../main/assets/fuentes/PaytoneOne-Regular.ttf);
+}
+@font-face {
+  font-family: "latina1";
+  src: url(../../main/assets/fuentes/LatinaEssential-LightIt/LatinaEssential-LightIt.woff2);
+}
+@font-face {
+  font-family: "latina4";
+  src: url(../../main/assets/fuentes/LatinaEssential-Light/LatinaEssential-Light.woff2);
+}
+
+.ninjart-container-img {
+  margin-top: 111px;
+}
+.ninjart-container-img img {
+  width: 323px;
+  height: 321px;
+}
+.ninjart-text-transform {
+  font-family: "paytone1";
+  font-size: 35px;
+  color: var(--color-2);
+  text-align: center;
+  line-height: 1em;
+}
+
+.ninjart-text-1 {
+  color: var(--color-4);
+}
+.ninjart-text-2 {
+  color: var(--color-1);
+}
+.ninjart-text-3 {
+  color: var(--color-2);
+}
+.ninjart-text-4 {
+  color: var(--color-3);
+}
+.ninjart-text-how {
+  font-family: "latina1";
+  font-size: 24px;
+  color: var(--color-3);
+  text-align: center;
+  margin-top: 10px;
+}
+.ninjart-text-content {
+  font-family: "latina4";
+  font-size: 20px;
+  margin-top: 20px;
+  color: var(--parrafo);
+  margin-bottom: 111px;
+}
+
+@media screen and (min-width: 768px) {
+  .ninjart-container-all {
+    display: grid;
+    grid-template-rows: [file1]1fr [file2]400px[finish];
+  }
+  .ninjart-container-text {
+    grid-row: file1 / file2;
+    margin-top: 111px;
+  }
+  .ninjart-text-transform {
+    font-size: 54px;
+  }
+  .ninjart-text-how {
+    font-size: 42px;
+  }
+  .ninjart-text-content {
+    font-size: 22px;
+    margin-bottom: initial;
+    padding: 0 133px;
+    line-height: 1.5em;
+    text-align: left;
+  }
+  .ninjart-container-img {
+    grid-row: file2 / finish;
+    margin-top: 40px;
+    text-align: center;
+  }
+}

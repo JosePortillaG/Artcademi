@@ -1,25 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Fragment } from "react";
+import "./styles/App/app.css";
+import { Header } from "./component/Header";
+import { Hero } from "./component/Hero";
+import { Main } from "./component/Main";
+import { Comunidad } from "./component/Comunidad";
+import { Ninjart } from "./component/Ninjart";
+import { Members } from "./component/Members";
+import { Footer } from "./component/Footer";
+import { GlobalStyle } from "./GloblaStyle";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+      <GlobalStyle />
+      <Header />
+      <Hero />
+      <Main />
+      <Comunidad />
+      <Ninjart />
+      <Members />
+      <Footer />
+    </Fragment>
   );
 }
 

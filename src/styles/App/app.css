@@ -1,0 +1,97 @@
+/* @font-face {
+  font-family: "latina3";
+  src: url(../../main/assets/fuentes/LatinaEssential-Bold/LatinaEssential-Bold.woff2);
+}
+.header-container-menu {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  align-items: center;
+}
+.header-menu {
+  width: 100%;
+  position: relative;
+}
+.menu {
+  border: 1px solid black;
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  left: 0;
+  text-align: center;
+  background: rgba(152, 141, 120, 0.8);
+}
+.menu ul li a {
+  display: block;
+  font-family: "latina3";
+  letter-spacing: 1px;
+}
+.text-menu-incio {
+  background: #508ec8;
+}
+.text-menu-artistas {
+  background: #d2921c;
+}
+.text-menu-blogart {
+  background: #654c92;
+}
+.text-menu-conocenos {
+  background: #291d3e;
+}
+.menu-checkbox:checked ~ .menu-open ~ .menu {
+  display: block;
+}
+.menu-checkbox:checked ~ .menu-open ~ .menu {
+  display: block;
+}
+.menu-open {
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  background: url("?");
+  cursor: pointer;
+  user-select: none;
+}
+
+.logo-artcademi {
+  width: 129px;
+  padding: 10px 20px;
+}
+.contenedor-unete-menu {
+  width: 100%;
+  position: relative;
+  margin-top: 10px;
+}
+.header-unete-text {
+  font-family: "latina3";
+  font-size: 12px;
+  letter-spacing: -1px;
+  color: #e49100;
+}
+.icon-discord {
+  width: 59.6px;
+  height: auto;
+}
+.container-button-menu {
+  display: inline-block;
+  position: absolute;
+  bottom: 17px;
+}
+.logo-patreon {
+  width: 55.6px;
+  height: auto;
+}
+.button-patreon-header {
+  width: 88px;
+  padding-top: 4px;
+  padding-bottom: 2px;
+  background: #148cc9;
+  border-radius: 26px;
+  border: 1px solid #148cc9;
+  box-shadow: -2px 5px 8px 0 rgba(0, 0, 0, 0.6);
+} */
+/* .hero-main {
+  background-image: url(../../component/images/hero-fondo.png);
+  background-repeat: no-repeat;
+} */

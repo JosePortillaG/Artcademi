@@ -1,0 +1,90 @@
+.container-text-known {
+  font-family: "paytone1";
+  font-size: 35px;
+  text-align: center;
+  line-height: 1em;
+}
+
+.known-text-1 {
+  color: var(--color-1);
+}
+.known-text-2 {
+  color: var(--color-2);
+}
+.known-text-3 {
+  color: var(--color-3);
+}
+.container-button-knowUs {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+.button-knowUs {
+  position: absolute;
+  width: 230px;
+  height: 76px;
+  padding-top: 4px;
+  padding-bottom: 2px;
+  background: #148cc9;
+  border-radius: 38px;
+  border: 1px solid #148cc9;
+  box-shadow: -2px 5px 8px 0 rgba(0, 0, 0, 0.6);
+}
+.fondo-patreon {
+  width: 322.3px;
+  height: auto;
+  background: url(../images/fondo-patreon.png);
+  background: no-repeat;
+}
+.logo-patreon-known {
+  width: 121.6px;
+  height: auto;
+}
+.contact-text-content {
+  font-family: "latina4";
+  font-weight: 600;
+  text-align: center;
+  color: var(--parrafo);
+}
+.contact-member {
+  text-align: center;
+  margin-top: 111px;
+}
+.member-orange {
+  margin-bottom: 60px;
+}
+.member-blue {
+  margin-bottom: 60px;
+}
+.member-purple {
+  margin-bottom: 111px;
+}
+@media screen and (min-width: 768px) {
+  .container-text-known {
+    font-size: 54px;
+  }
+  .contact-text-content {
+    font-size: 22px;
+    padding: 0 136px;
+  }
+  .contact-member {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 111px;
+    padding: 0 30px;
+  }
+  .member-orange {
+    width: 187px;
+    margin-bottom: initial;
+  }
+  .member-blue {
+    width: 187px;
+    margin-bottom: initial;
+  }
+  .member-purple {
+    width: 187px;
+    margin-bottom: initial;
+  }
+}

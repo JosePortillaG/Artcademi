@@ -1,0 +1,178 @@
+.footer-container-links {
+  background: #214975;
+}
+
+.footer-text-links {
+  padding-top: 111px;
+  padding-right: 40px;
+  text-align: right;
+}
+.footer-text-links p {
+  font-family: "latina1";
+  font-size: 35px;
+  color: white;
+}
+.footer-links {
+  font-family: "latina2";
+  font-size: 20px;
+}
+.footer-links li {
+  margin: 20px 0;
+}
+.footer-container-text {
+  text-align: right;
+  padding-right: 40px;
+  margin-top: 111px;
+}
+.footer-post {
+  font-family: "latina1";
+  font-size: 35px;
+  color: white;
+}
+.footer-jdilla {
+  font-family: "latina2";
+  font-size: 20px;
+  color: white;
+}
+.footer-container-nets {
+  padding-right: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.footer-nets {
+  font-family: "latina1";
+  font-size: 35px;
+  text-align: right;
+  padding-right: 30px;
+  color: white;
+  margin-top: 111px;
+}
+.nets-1 {
+  text-align: center;
+}
+.icon-patreon {
+  width: 90px;
+  height: auto;
+  margin: 0 5px;
+}
+.icon-discord-footer {
+  width: 90px;
+  height: auto;
+  margin: 0 5px;
+}
+.nets-2 {
+  text-align: right;
+}
+.icon-pinterest {
+  width: 90px;
+  height: auto;
+  margin: 0 5px;
+}
+.icon-youtube {
+  width: 90px;
+  height: auto;
+  margin: 0 5px;
+}
+.nets-3 {
+  text-align: center;
+}
+.icon-instagram {
+  width: 90px;
+  height: auto;
+  margin: 0 5px;
+}
+.icon-tiktok {
+  width: 90px;
+  height: auto;
+  margin: 0 5px;
+}
+.nets-4 {
+  text-align: center;
+}
+.icon-faceboock {
+  width: 90px;
+  height: auto;
+  margin: 0 5px;
+}
+.footer-container-input {
+  margin: 10px 0;
+}
+.footer-newsletters {
+  font-family: "latina3";
+  font-size: 12px;
+  text-align: center;
+  color: white;
+}
+.footer-input {
+  width: 307px;
+  height: 41px;
+  text-align: center;
+  border-radius: 26px;
+  border: 2px solid var(--color-2);
+}
+.footer-input::-webkit-input-placeholder {
+  color: var(--color-2);
+}
+.footer-button {
+  width: 315px;
+  height: 41px;
+  text-align: center;
+  background: var(--color-2);
+  border-radius: 26px;
+  border: 1px solid var(--color-2);
+}
+@media screen and (min-width: 768px) {
+  .footer-container-text-links {
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer-nets {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .footer-container-nets {
+    display: grid;
+    padding-right: initial;
+    grid-template-columns: [init]1fr [file1]1fr [file2]1fr [file3]1fr [file4]1fr [file5]1fr[finish];
+  }
+  .nets-1 {
+    grid-area: iniit / file1;
+  }
+  .icon-patreon {
+    margin-right: 20px;
+  }
+  .icon-discord-footer {
+    margin-left: 20px;
+  }
+  .nets-2 {
+    grid-area: file1 / file2;
+  }
+  .icon-patreon {
+    margin-right: 20px;
+  }
+  .icon-discord-footer {
+    margin-left: 20px;
+  }
+  .nets-3 {
+    grid-area: file2 / file3;
+  }
+  .icon-pinterest {
+    margin-right: 20px;
+  }
+  .icon-youtube {
+    margin-left: 20px;
+  }
+  .nets-4 {
+    grid-area: file3 / file4;
+  }
+  .icon-faceboock {
+    margin-right: 20px;
+  }
+
+  .footer-container-input {
+    text-align: center;
+  }
+  .footer-container-button {
+    text-align: center;
+  }
+}

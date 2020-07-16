@@ -1,0 +1,203 @@
+@font-face {
+  font-family: "latina3";
+  src: url(../../main/assets/fuentes/LatinaEssential-Bold/LatinaEssential-Bold.woff2);
+}
+.header-menu {
+  max-width: 100%;
+  position: relative;
+}
+.header-container-menu {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  align-items: center;
+}
+.menu {
+  border: 1px solid black;
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  left: 0;
+  text-align: center;
+  background: rgba(152, 141, 120, 0.8);
+}
+.menu ul li a {
+  display: block;
+  font-family: "latina3";
+  letter-spacing: 1px;
+}
+.text-menu-incio {
+  background: #508ec8;
+}
+.text-menu-artistas {
+  background: #d2921c;
+}
+.text-menu-blogart {
+  background: #654c92;
+}
+.text-menu-conocenos {
+  background: #291d3e;
+}
+.menu-checkbox:checked ~ .menu-open ~ .menu {
+  display: block;
+}
+.menu-checkbox:checked ~ .menu-open ~ .menu {
+  display: block;
+}
+.menu-open {
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  background: url("?");
+  cursor: pointer;
+  user-select: none;
+}
+
+.logo-artcademi {
+  width: 129px;
+  padding: 10px 20px;
+}
+.contenedor-unete-menu {
+  width: 100%;
+  position: relative;
+  margin-top: 10px;
+}
+.header-unete-text {
+  font-family: "latina3";
+  font-size: 12px;
+  letter-spacing: -1px;
+  color: #e49100;
+}
+.icon-discord {
+  width: 59.6px;
+  height: auto;
+}
+.container-button-menu {
+  display: inline-block;
+  position: absolute;
+  bottom: 17px;
+}
+.logo-patreon {
+  width: 55.6px;
+  height: auto;
+}
+.button-patreon-header {
+  width: 88px;
+  padding-top: 4px;
+  padding-bottom: 2px;
+  background: #148cc9;
+  border-radius: 26px;
+  border: 1px solid #148cc9;
+  box-shadow: -2px 5px 8px 0 rgba(0, 0, 0, 0.6);
+}
+
+@media screen and (min-width: 768px) {
+  .logo-artcademi {
+    padding: initial;
+    padding-left: 20px;
+  }
+  .icon-discord {
+    margin-right: 5px;
+  }
+  .header-container-menu {
+    /* display: flex;
+    justify-content: space-between; */
+    align-items: center;
+  }
+  .menu-open {
+    display: none;
+  }
+  .menu-checkbox {
+    display: none;
+  }
+  .menu {
+    display: inline-block;
+    position: initial;
+    border: none;
+    background: none;
+  }
+  .menu ul {
+    display: flex;
+  }
+  .menu ul li a {
+    font-size: 14px;
+    letter-spacing: initial;
+    color: var(--parrafo);
+  }
+  .text-menu-incio {
+    background: none;
+    padding: 68px 37px;
+  }
+  .text-menu-artistas {
+    background: none;
+    padding: 68px 31px;
+  }
+  .text-menu-blogart {
+    background: none;
+    padding: 68px 28px;
+  }
+  .text-menu-conocenos {
+    background: none;
+    padding: 68px 13px;
+  }
+  .text-menu-incio:hover {
+    background: var(--color-2);
+    color: white;
+  }
+  .text-menu-artistas:hover {
+    background: var(--color-1);
+    color: white;
+  }
+  .text-menu-blogart:hover {
+    background: var(--color-3);
+    color: white;
+  }
+  .text-menu-conocenos:hover {
+    background: var(--color-4);
+    color: white;
+  }
+  .contenedor-unete-menu {
+    width: initial;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .logo-artcademi {
+    width: 180.6px;
+  }
+  .menu ul li a {
+    font-size: 17px;
+  }
+  .text-menu-incio {
+    padding: 50px 37px;
+  }
+  .text-menu-artistas {
+    padding: 50px 31px;
+  }
+  .text-menu-blogart {
+    padding: 50px 28px;
+  }
+  .text-menu-conocenos {
+    padding: 50px 13px;
+  }
+  .contenedor-unete-menu {
+    margin-right: 40px;
+  }
+  .header-unete-text {
+    font-size: 15px;
+  }
+  .icon-discord {
+    width: 83.44px;
+    margin-left: -25px;
+  }
+  .button-patreon-header {
+    width: 140px;
+    padding-top: 8px;
+    padding-bottom: 4px;
+  }
+  .logo-patreon {
+    width: 88.96px;
+  }
+}
