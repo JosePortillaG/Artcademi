@@ -81,3 +81,33 @@
     text-align: center;
   }
 }
+@media screen and (min-width: 1024px) {
+  .ninjart-container-all {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "texto imagen";
+  }
+  .ninjart-container-img {
+    grid-area: imagen;
+    align-self: end;
+  }
+  .ninjart-container-img img {
+    width: 422px;
+    height: auto;
+  }
+  .ninjart-container-text {
+    grid-area: texto;
+  }
+  .ninjart-text-transform {
+    font-size: 44px;
+  }
+  .ninjart-text-how {
+    font-size: 32px;
+  }
+  .ninjart-text-content {
+    font-size: 20px;
+    padding: initial;
+    padding-left: 88px;
+  }
+}

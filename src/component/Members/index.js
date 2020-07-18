@@ -9,33 +9,39 @@ import "./members.css";
 export const Members = () => {
   return (
     <section className="contact u-wrapper">
-      <p className="container-text-known">
-        <span className="known-text-1">Conoce</span>
-        <span className="known-text-2"> nuestras</span>
-        <span className="known-text-3"> membresías.</span>
-      </p>
-      <div className="container-button-knowUs">
-        <img
-          className="fondo-patreon"
-          src={fondopatreon}
-          alt="img de fondo de patreon"
-        />
-        <button className="button-knowUs">
-          <a href="#">
-            <img
-              className="logo-patreon-known"
-              src={patreon}
-              art="logo patreon"
-            />
-          </a>
-        </button>
+      <div className="known-container-main">
+        <div className="container-text-known">
+          <p className="known-text-main">
+            <span className="known-text-1">Conoce</span>
+            <span className="known-text-2"> nuestras</span>
+            <span className="known-text-3"> membresías.</span>
+          </p>
+        </div>
+        <div className="container-button-knowUs">
+          <img
+            className="fondo-patreon"
+            src={fondopatreon}
+            alt="img de fondo de patreon"
+          />
+          <button className="button-knowUs">
+            <a href="#">
+              <img
+                className="logo-patreon-known"
+                src={patreon}
+                art="logo patreon"
+              />
+            </a>
+          </button>
+        </div>
+        <div className="container-contact-text">
+          <p className="contact-text-content">
+            Si quieres apoyarnos para seguir creando contenido y mejorar
+            Artcademi para beneficio de todos, puedes donar en nuestro Patreon y
+            conseguir recompensas exclusivas.
+          </p>
+        </div>
       </div>
-      <p className="contact-text-content">
-        Si quieres apoyarnos para seguir creando contenido y mejorar Artcademi
-        para beneficio de todos, puedes donar en nuestro Patreon y conseguir
-        recompensas exclusivas.
-      </p>
-      <div className="contact-member">
+      <div className="container-contact-member">
         <img
           className="member-orange"
           src={memberorange}

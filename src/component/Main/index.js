@@ -54,9 +54,7 @@ export const Main = () => {
             <br />
             eso que tanto te gusta.
             <br />
-            Intercambia tus
-            <br />
-            conocimientos.
+            Intercambia tus conocimientos.
           </p>
           <div className="main-content-img-barter">
             <img className="img-barter" src={Ninjito} alt="img-barter" />

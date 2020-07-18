@@ -67,7 +67,7 @@
 } */
 .main-text-code {
   font-family: "latina4";
-  font-size: 21px;
+  font-size: 20px;
   color: var(--color-1);
   text-align: center;
 }
@@ -80,7 +80,7 @@
 }
 .main-text-joinUp {
   font-family: "latina4";
-  font-size: 21px;
+  font-size: 20px;
   color: var(--color-2);
   text-align: center;
 }
@@ -93,7 +93,7 @@
 }
 .main-text-barter {
   font-family: "latina4";
-  font-size: 21px;
+  font-size: 20px;
   color: var(--color-3);
   text-align: center;
 }
@@ -123,38 +123,25 @@
   .main-container-code {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-areas: "texto imagen";
   }
   .main-text-code {
     align-self: center;
-    grid-area: "texto";
   }
-  .main-content-img-code {
-    grid-area: "imagen";
-  }
+
   .main-container-joinUp {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-areas: "texto imagen";
   }
   .main-text-joinUp {
     align-self: center;
-    grid-area: "texto";
   }
-  .main-content-img-scearch {
-    grid-area: "imagen";
-  }
+
   .main-container-barter {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-areas: "texto imagen";
   }
   .main-text-barter {
     align-self: center;
-    grid-area: "texto";
-  }
-  .main-content-img-barter {
-    grid-area: "imagen";
   }
 }
 
@@ -163,5 +150,51 @@
     display: grid;
     justify-content: right;
     padding-right: 62px;
+  }
+  .main-text-connect {
+    font-size: 44px;
+  }
+  .main-text-follow {
+    font-size: 32px;
+  }
+  .main-container-how {
+    font-size: 44px;
+    margin-top: 0;
+  }
+  .main-container-all {
+    display: grid;
+    grid-template-columns: [file1]1fr [file2]1fr [file3]1fr [file4]1fr [file5]1fr[finish];
+    grid-template-rows: [file1]1fr[finish];
+  }
+  .main-container-code {
+    grid-column: file2 / file3;
+  }
+  .main-content-img-code {
+    grid-row: file2 / finish;
+  }
+  .img-code {
+    width: 307px;
+    height: auto;
+  }
+  .main-container-joinUp {
+    grid-column: file3 / file4;
+  }
+  .main-content-img-scearch {
+    grid-row: file2 / finish;
+  }
+  .img-scearch {
+    width: 307px;
+    height: auto;
+  }
+  .main-container-barter {
+    grid-column: file4 / file5;
+  }
+  .main-content-img-barter {
+    grid-row: file2 / finish;
+  }
+  .img-barter {
+    width: 307px;
+    height: auto;
+    padding-bottom: 22px;
   }
 }

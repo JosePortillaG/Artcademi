@@ -82,6 +82,7 @@
   border: 1px solid #148cc9;
   border-radius: 26px;
   background: #148cc9;
+  box-shadow: -2px 5px 8px 0 rgba(0, 0, 0, 0.6);
 }
 .hero-button a {
   font-family: "latina3";
@@ -105,7 +106,7 @@
     grid-row: file2 / finish;
   }
   .hero-container img {
-    width: 540px;
+    width: 433px;
     height: auto;
   }
   .hero-text-uniendo {
@@ -126,24 +127,35 @@
     background-image: url(../images/hero-fondo-768.png),
       url(../images/fondo-hero-right.png);
     background-position: top 0 left 0, top 0 right 0;
-    background-size: 46%, 17%;
+    background-size: 40%, 17%;
     background-repeat: no-repeat;
   }
   .hero-768 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 55% 45%;
     grid-template-rows: 1fr;
     grid-template-areas: "content1 image";
   }
   .hero-768-2 {
     grid-area: content1;
   }
+  .hero-text-uniendo {
+    font-size: 44px;
+    text-align: left;
+    padding-left: 88px;
+  }
+  .hero-text-creativo {
+    font-size: 20px;
+    text-align: left;
+  }
   .hero-container {
     grid-area: image;
+    align-self: end;
   }
   .hero-img {
     content: url(../images/hero-jdilla-1024.png);
-    width: 540px;
-    height: auto;
+  }
+  .hero-text-seguir {
+    font-size: 32px;
   }
 }

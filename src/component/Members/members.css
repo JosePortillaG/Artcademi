@@ -1,4 +1,4 @@
-.container-text-known {
+.known-text-main {
   font-family: "paytone1";
   font-size: 35px;
   text-align: center;
@@ -48,7 +48,7 @@
   text-align: center;
   color: var(--parrafo);
 }
-.contact-member {
+.container-contact-member {
   text-align: center;
   margin-top: 111px;
 }
@@ -62,14 +62,14 @@
   margin-bottom: 111px;
 }
 @media screen and (min-width: 768px) {
-  .container-text-known {
+  .known-text-main {
     font-size: 54px;
   }
   .contact-text-content {
     font-size: 22px;
     padding: 0 136px;
   }
-  .contact-member {
+  .container-contact-member {
     display: flex;
     justify-content: space-between;
     margin-bottom: 111px;
@@ -86,5 +86,61 @@
   .member-purple {
     width: 187px;
     margin-bottom: initial;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .known-container-main {
+    grid-template-columns: 15% [texto]1fr [patreon]1fr;
+    grid-template-rows: [file1]100px [file2]1fr;
+    display: grid;
+    margin-top: 111px;
+  }
+  .container-button-knowUs {
+    grid-area: patreon;
+    margin-top: -77px;
+  }
+  .fondo-patreon {
+    width: 226px;
+  }
+  .button-knowUs {
+    width: 140px;
+    height: 48px;
+  }
+  .logo-patreon-known {
+    width: 88px;
+  }
+  .container-text-known {
+    grid-area: texto;
+    grid-row: file1;
+  }
+
+  .known-text-main {
+    font-size: 44px;
+    text-align: left;
+  }
+  .container-contact-text {
+    grid-area: texto;
+    margin-top: 20px;
+  }
+  .contact-text-content {
+    font-size: 20px;
+    padding: 0 44px;
+    text-align: left;
+  }
+  .contact-text-content {
+    padding: initial;
+  }
+  .container-contact-member {
+    margin-top: 40px;
+    justify-content: space-around;
+  }
+  .member-orange {
+    width: 243px;
+  }
+  .member-blue {
+    width: 243px;
+  }
+  .member-purple {
+    width: 243px;
   }
 }

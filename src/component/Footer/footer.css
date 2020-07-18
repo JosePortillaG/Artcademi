@@ -147,10 +147,10 @@
   .nets-2 {
     grid-area: file1 / file2;
   }
-  .icon-patreon {
+  .icon-instagram {
     margin-right: 20px;
   }
-  .icon-discord-footer {
+  .icon-tiktok {
     margin-left: 20px;
   }
   .nets-3 {
@@ -174,5 +174,66 @@
   }
   .footer-container-button {
     text-align: center;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .footer-container-all {
+    display: grid;
+    grid-template-columns: [text1]55% [text2]45%[finish];
+    grid-template-rows: 1fr;
+    padding: 20px;
+  }
+  .footer-container-text-links {
+    grid-area: text1;
+  }
+  .footer-text-links {
+    padding-right: initial;
+  }
+  .footer-text-links p {
+    font-size: 24px;
+  }
+  .footer-links {
+    font-size: 17px;
+  }
+  .footer-container-text {
+    margin-left: 30px;
+  }
+  .footer-post {
+    font-size: 24px;
+  }
+  .footer-jdilla {
+    font-size: 17px;
+  }
+  .footer-nets-container-all {
+    grid-area: text2;
+  }
+  .footer-nets {
+    margin-top: 111px;
+    font-size: 24px;
+    padding-right: initial;
+  }
+  .icon-patreon {
+    width: 70px;
+  }
+  .icon-discord-footer {
+    width: 70px;
+  }
+  .icon-instagram {
+    width: 70px;
+  }
+  .icon-tiktok {
+    width: 70px;
+  }
+  .icon-youtube {
+    width: 70px;
+  }
+  .icon-pinterest {
+    width: 70px;
+  }
+  .icon-faceboock {
+    width: 70px;
+  }
+  .footer-newsletters {
+    font-size: 17px;
   }
 }
