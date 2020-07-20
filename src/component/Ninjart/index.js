@@ -7,7 +7,7 @@ export const Ninjart = () => {
     <section className="ninjart u-wrapper">
       <div className="ninjart-container-all">
         <div className="ninjart-container-img">
-          <img src={Ninjito} />
+          <img src={Ninjito} alt="imagen de ninjito el gato ninja" />
         </div>
         <div className="ninjart-container-text">
           <p className="ninjart-text-transform">

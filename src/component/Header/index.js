@@ -3,22 +3,23 @@ import logo from "../images/logo-arcademi.svg";
 import discord from "../images/icon-discord.png";
 import patreon from "../images/logo-patreon.svg";
 import "./header.css";
+import { NavLink } from "react-router-dom";
 
 export const Header = () => {
   return (
     <div className="header-menu">
       <header className="header-container-menu">
-        <a href="#">
+        <NavLink to="/">
           <img className="logo-artcademi" src={logo} alt={logo} />
-        </a>
+        </NavLink>
         <input type="checkbox" id="open" className="menu-checkbox" />
         <label for="open" className="menu-open" />
         <nav className="menu">
           <ul>
             <li>
-              <a className="text-menu-incio" href="#">
+              <NavLink to="/" className="text-menu-incio">
                 Inicio
-              </a>
+              </NavLink>
             </li>
             {/* </li>
             <ul>
@@ -27,9 +28,9 @@ export const Header = () => {
             </ul>
             <li> */}
             <li>
-              <a className="text-menu-artistas" href="#">
+              <NavLink to="/" className="text-menu-artistas">
                 Artistas
-              </a>
+              </NavLink>
             </li>
             {/* <ul>
                 <li>dFhilo</li>
@@ -40,18 +41,18 @@ export const Header = () => {
                 <li>Contacta dFhilo</li>
               </ul> */}
             <li>
-              <a className="text-menu-blogart" href="#">
+              <NavLink to="/" className="text-menu-blogart">
                 BlogArt
-              </a>
+              </NavLink>
             </li>
             {/* <ul>
                 <li>J Dilla</li>
               </ul> */}
 
             <li>
-              <a className="text-menu-conocenos" href="#">
+              <NavLink to="/" className="text-menu-conocenos">
                 Conocenos
-              </a>
+              </NavLink>
             </li>
             {/* <ul>
                 <li>Artcademi</li>
@@ -65,15 +66,15 @@ export const Header = () => {
         <div className="contenedor-unete-menu">
           <p className="header-unete-text">Unete a nuestra comunidad</p>
           <span>
-            <a href="#">
+            <NavLink to="/">
               <img className="icon-discord" src={discord} alt={discord} />
-            </a>
+            </NavLink>
           </span>
           <span className="container-button-menu">
             <button className="button-patreon-header">
-              <a href="#">
+              <NavLink to="/">
                 <img className="logo-patreon" src={patreon} alt={patreon} />
-              </a>
+              </NavLink>
             </button>
           </span>
         </div>

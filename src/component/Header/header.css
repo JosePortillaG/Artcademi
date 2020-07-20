@@ -2,6 +2,9 @@
   font-family: "latina3";
   src: url(../../main/assets/fuentes/LatinaEssential-Bold/LatinaEssential-Bold.woff2);
 }
+.is-select {
+  background: var(--color-1);
+}
 .header-menu {
   max-width: 100%;
   position: relative;
