@@ -8,22 +8,18 @@ import { Ninjart } from "./component/Ninjart";
 import { Members } from "./component/Members";
 import { Footer } from "./component/Footer";
 import { GlobalStyle } from "./styles/GloblaStyle";
-import { BrowserRouter, Route } from "react-router-dom";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Fragment>
-        <GlobalStyle />
-        <Header />
-        <Hero />
-        <Main />
-        <Comunidad />
-        <Ninjart />
-        <Members />
-        <Footer />
-      </Fragment>
-    </BrowserRouter>
+    <Fragment>
+      <GlobalStyle />
+      <Hero />
+      <Main />
+      <Comunidad />
+      <Ninjart />
+      <Members />
+      <Footer />
+    </Fragment>
   );
 }
 

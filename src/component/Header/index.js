@@ -17,7 +17,7 @@ export const Header = () => {
         <nav className="menu">
           <ul>
             <li>
-              <NavLink to="/" className="text-menu-incio">
+              <NavLink exact to="/" className="text-menu-incio">
                 Inicio
               </NavLink>
             </li>
@@ -28,7 +28,7 @@ export const Header = () => {
             </ul>
             <li> */}
             <li>
-              <NavLink to="/" className="text-menu-artistas">
+              <NavLink to="/artistas" className="text-menu-artistas">
                 Artistas
               </NavLink>
             </li>
@@ -41,7 +41,7 @@ export const Header = () => {
                 <li>Contacta dFhilo</li>
               </ul> */}
             <li>
-              <NavLink to="/" className="text-menu-blogart">
+              <NavLink to="/blogart" className="text-menu-blogart">
                 BlogArt
               </NavLink>
             </li>
@@ -50,7 +50,7 @@ export const Header = () => {
               </ul> */}
 
             <li>
-              <NavLink to="/" className="text-menu-conocenos">
+              <NavLink to="/conocenos" className="text-menu-conocenos">
                 Conocenos
               </NavLink>
             </li>

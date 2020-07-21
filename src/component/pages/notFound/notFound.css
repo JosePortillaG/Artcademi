@@ -1,0 +1,10 @@
+.container-notFound {
+  display: block;
+  text-align: center;
+  color: var(--color-1);
+}
+
+.container-notFound h2 {
+  margin: 50px;
+  padding: 0 211px;
+}
