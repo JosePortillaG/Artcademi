@@ -1,0 +1,33 @@
+.container-hero-artist {
+  background-image: url(../../component/images/artcademi-backinicio.png);
+  background-position: top 0 left 0;
+  background-repeat: no-repeat;
+}
+.img-hero-artist {
+  margin-top: 44px;
+}
+.hero-text-artist {
+  font-family: "paytone1";
+  font-size: 35px;
+  line-height: 1em;
+  text-align: center;
+}
+.text-artist-1 {
+  color: var(--color-1);
+}
+.text-artist-2 {
+  color: var(--color-4);
+}
+.text-artist-3 {
+  color: var(--color-2);
+}
+.text-artist-4 {
+  color: var(--color-3);
+}
+.hero-text-artist-paragraph {
+  font-family: "latina2";
+  font-size: 21px;
+  text-align: center;
+  margin: 54px 0;
+  color: var(--parrafo);
+}

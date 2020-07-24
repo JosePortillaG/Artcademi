@@ -1,0 +1,38 @@
+.main-artist-container {
+  margin-top: 111px;
+}
+.main-text-want-have {
+  font-family: "paytone1";
+  font-size: 34px;
+  text-align: center;
+}
+.main-text-want {
+  color: var(--color-1);
+}
+.main-text-have {
+  color: var(--color-2);
+}
+.main-text-space {
+  font-family: "latina1";
+  font-size: 26px;
+  text-align: center;
+  margin: 32px 0;
+  color: var(--color-4);
+}
+.main-text-space span {
+  color: var(--color-1);
+}
+.main-text-artist-paragraph-1 {
+  font-family: "latina4";
+  font-size: 21px;
+  color: var(--parrafo);
+}
+.img-model-artist {
+  margin: 88px 0;
+  max-width: 100%;
+}
+.main-text-artist-paragraph-2 {
+  font-family: "latina4";
+  font-size: 21px;
+  color: var(--parrafo);
+}
