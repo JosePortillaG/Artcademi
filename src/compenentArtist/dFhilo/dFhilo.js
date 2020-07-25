@@ -5,6 +5,7 @@ import dfhiloHoz from "../../component/images/dfhilo-hoz.png";
 import icondFhilo from "../../component/images/icon-dfhilo.png";
 import iconBe from "../../component/images/icon-be.png";
 import iconLinkedin from "../../component/images/icon-linkedin.png";
+import CardDesign from "../contentArtist/CardDesign";
 import "./dFhilo.css";
 
 export const Dfhilo = () => {
@@ -70,19 +71,22 @@ export const Dfhilo = () => {
           </div>
         </div>
       </div>
-      <div className="design-your-brand u-wrapper">
-        <p>Diseño Tu Marca</p>
-        <p>Desarrollemos juntos tu marca.</p>
-        <p>
+      <div className="design-your-brand">
+        <p className="text-design">Diseño Tu Marca</p>
+        <p className="text-develop">Desarrollemos juntos tu marca.</p>
+        <p className="content-text-design">
           El diseño de la imagen, es una parte esencial en cualquier proyecto.
           Diseñamos juntos tu logo desde cero, para que te permita diferenciar
           tu marcade las demás, y transmita personalidad y propósito.
         </p>
-        <div>
-          <button>OBTENER MÁS INFORMACION</button>
+        <div className="information-container-button">
+          <button className="information-button">
+            <a href="/">OBTENER MÁS INFORMACIÓN</a>
+          </button>
         </div>
       </div>
-      <div className="design-your-brand u-wrapper">
+      <CardDesign />
+      <div className="design-your-miusic">
         <p>Diseñemos tu musica</p>
         <p>¿Quieres crear tu propia música?</p>
         <p>
@@ -92,10 +96,10 @@ export const Dfhilo = () => {
           el pie derecho en este hermoso arte del beatmaking.
         </p>
         <div>
-          <button>OBTENER MÁS INFORMACION</button>
+          <button>OBTENER MÁS INFORMACIÓN</button>
         </div>
       </div>
-      <div className="design-your-brand u-wrapper">
+      <div className="design-your-web">
         <p>Diseñamos Tu Web</p>
         <p>¿Te gusta el diseño de Artcademi.com?</p>
         <p>
@@ -104,7 +108,7 @@ export const Dfhilo = () => {
           mercado electrónico, y estar en el mapa del mundo de hoy.
         </p>
         <div>
-          <button>OBTENER MÁS INFORMACION</button>
+          <button>OBTENER MÁS INFORMACIÓN</button>
         </div>
       </div>
     </section>

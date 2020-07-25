@@ -76,3 +76,48 @@
   width: 47px;
   height: 39px;
 }
+.design-your-brand {
+  background: var(--color-1);
+  margin: 30px;
+  padding-left: 30px;
+  padding-right: 35px;
+}
+.text-design {
+  font-family: "paytone1";
+  font-size: 34px;
+  line-height: 1em;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-left: 5px;
+  color: #fff;
+  text-align: center;
+}
+.text-develop {
+  font-family: "latina2";
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--parrafo);
+}
+.content-text-design {
+  font-family: "latina4";
+  font-size: 21px;
+  color: var(--parrafo);
+  padding-bottom: 60px;
+  padding-top: 30px;
+}
+.information-container-button {
+  display: flex;
+  padding-bottom: 30px;
+}
+.information-button {
+  width: 289px;
+  height: 63px;
+  border: 1px solid #148cc9;
+  border-radius: 26px;
+  background: #148cc9;
+  box-shadow: -2px 5px 8px 0 rgba(0, 0, 0, 0.6);
+}
+.information-button a {
+  font-family: "latina3";
+  letter-spacing: 0.8px;
+}
