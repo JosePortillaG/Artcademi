@@ -1,0 +1,78 @@
+.img-header-dfhilo {
+  max-width: 100%;
+  margin-top: 111px;
+}
+.dfhilo-container {
+  background: #fff;
+  margin-top: -4px;
+}
+.container-photo-dfhilo {
+  text-align: center;
+  margin-bottom: 33px;
+  padding-top: 33px;
+}
+.dfhilo-text-junior {
+  font-family: "latina1";
+  font-size: 26px;
+  color: var(--color-4);
+  margin-left: 4px;
+}
+.dfhilo-text-dfhilo {
+  font-family: "latina3";
+  color: var(--color-4);
+  font-size: 26px;
+}
+.dfhilo-text-designer {
+  font-family: "latina5";
+  font-size: 22px;
+  margin-bottom: 33px;
+  color: var(--color-1);
+}
+.dfhilo-text-designer-content {
+  font-family: "latina4";
+  font-size: 21px;
+}
+.logo-dfilo-hoz {
+  text-align: center;
+  margin: 44px 0;
+}
+.logo-dfilo-hoz img {
+  width: 75px;
+  height: 122px;
+}
+.container-icon-dfhilo {
+  padding-left: 33px;
+}
+.container-nets-be {
+  display: flex;
+  align-items: center;
+}
+.dfhilo-nets-be {
+  font-family: "latina2";
+  font-size: 12px;
+  margin-left: 11px;
+  color: var(--parrafo);
+}
+.icon-be-dfhilo {
+  width: 47px;
+  height: 39px;
+}
+.container-nets-linkedin {
+  display: flex;
+  align-items: center;
+  margin: 11px 0;
+}
+.dfhilo-nets-linkedin {
+  font-family: "latina2";
+  font-size: 12px;
+  margin-left: 11px;
+  color: var(--parrafo);
+}
+.icon-linkedin-dfhilo {
+  width: 47px;
+  height: 39px;
+}
+.icon-dfhilo-dfhilo {
+  width: 47px;
+  height: 39px;
+}

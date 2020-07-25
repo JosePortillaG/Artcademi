@@ -14,7 +14,10 @@
   font-family: "latina4";
   src: url(../../main/assets/fuentes/LatinaEssential-LightIt/LatinaEssential-LightIt.woff2);
 }
-
+@font-face {
+  font-family: "latina5";
+  src: url(../../main/assets/fuentes/LatinaEssential-HeavyIt/LatinaEssential-HeavyIt.woff2);
+}
 .hero-main {
   display: flow-root;
   background-image: url(../../component/images/hero-fondo.png);
