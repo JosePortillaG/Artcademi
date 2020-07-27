@@ -8,6 +8,33 @@ import iconLinkedin from "../../component/images/icon-linkedin.png";
 import CardDesign from "../contentArtist/CardDesign";
 import "./dFhilo.css";
 
+const cardListData = [
+  {
+    id: 1,
+    title: "Diseño Tu Marca",
+    subtitle: "Desarrollemos juntos tu marca.",
+    textcontent: ` El diseño de la imagen, es una parte esencial en cualquier proyecto.
+    Diseñamos juntos tu logo desde cero, para que te permita diferenciar tu
+    marcade las demás, y transmita personalidad y propósito.`,
+  },
+  {
+    id: 2,
+    title: "Diseñemos Tu Musica",
+    subtitle: "¿Quieres crear tu propio música?",
+    textcontent: `La música siempre ha estado a mi lado, por eso desde hace 4 años,
+    vengo desarrollando mi propio método para crear beats. En mis clases
+    ONLINE te muesto todo lo que se y te dejo listo para que empieces con
+    el pie derecho en este hermoso arte del beatmaking.`,
+  },
+  {
+    id: 3,
+    title: "Diseñamos Tu Web",
+    subtitle: "¿Te gusta el diseño de Artcademi.com?",
+    textcontent: `Junto a mi hermano josee y nuestro equipo de expertos, construiremos
+    tu sitio web soñado, que se ajuste a lo que necesitas en este nuevo
+    mercado electrónico, y estar en el mapa del mundo de hoy.`,
+  },
+];
 export const Dfhilo = () => {
   return (
     <section>
@@ -71,46 +98,14 @@ export const Dfhilo = () => {
           </div>
         </div>
       </div>
-      <div className="design-your-brand">
-        <p className="text-design">Diseño Tu Marca</p>
-        <p className="text-develop">Desarrollemos juntos tu marca.</p>
-        <p className="content-text-design">
-          El diseño de la imagen, es una parte esencial en cualquier proyecto.
-          Diseñamos juntos tu logo desde cero, para que te permita diferenciar
-          tu marcade las demás, y transmita personalidad y propósito.
-        </p>
-        <div className="information-container-button">
-          <button className="information-button">
-            <a href="/">OBTENER MÁS INFORMACIÓN</a>
-          </button>
-        </div>
-      </div>
-      <CardDesign />
-      <div className="design-your-miusic">
-        <p>Diseñemos tu musica</p>
-        <p>¿Quieres crear tu propia música?</p>
-        <p>
-          La música siempre ha estado a mi lado, por eso desde hace 4 años,
-          vengo desarrollando mi propio método para crear beats. En mis clases
-          ONLINE te muesto todo lo que se y te dejo listo para que empieces con
-          el pie derecho en este hermoso arte del beatmaking.
-        </p>
-        <div>
-          <button>OBTENER MÁS INFORMACIÓN</button>
-        </div>
-      </div>
-      <div className="design-your-web">
-        <p>Diseñamos Tu Web</p>
-        <p>¿Te gusta el diseño de Artcademi.com?</p>
-        <p>
-          Junto a mi hermano josee y nuestro equipo de expertos, construiremos
-          tu sitio web soñado, que se ajuste a lo que necesitas en este nuevo
-          mercado electrónico, y estar en el mapa del mundo de hoy.
-        </p>
-        <div>
-          <button>OBTENER MÁS INFORMACIÓN</button>
-        </div>
-      </div>
+      {cardListData.map(({ id, title, subtitle, textcontent }) => (
+        <CardDesign
+          key={id}
+          title={title}
+          subtitle={subtitle}
+          textcontent={textcontent}
+        />
+      ))}
     </section>
   );
 };

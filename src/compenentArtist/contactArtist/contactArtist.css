@@ -1,0 +1,85 @@
+.contact-text-communicate {
+  font-family: "latina3";
+  font-size: 32px;
+  text-align: center;
+  color: var(--color-4);
+}
+.contact-text-queries {
+  font-family: "latina1";
+  font-size: 15px;
+  margin-top: 15px;
+  text-align: center;
+  color: var(--color-4);
+}
+
+.contact-text-whatsapp {
+  font-family: "latina1";
+  font-size: 15px;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 5px;
+  color: var(--color-4);
+}
+.contact-container-button {
+  display: flex;
+  justify-content: center;
+}
+.contact-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 322px;
+  height: 48px;
+  border: 1px solid #1f5d26;
+  border-radius: 26px;
+  background-color: #1f5d26;
+  box-shadow: -2px 5px 8px 0 rgba(0, 0, 0, 0.6);
+}
+.contact-button a {
+  font-family: "latina3";
+  font-size: 13px;
+  letter-spacing: 0.5px;
+}
+.contact-icon-whatsapp {
+  width: 41px;
+  height: 34px;
+  padding-right: 10px;
+}
+
+.contact-p-dfhilo-junior {
+  text-align: center;
+  margin-top: 11px;
+  margin-bottom: 5px;
+}
+.contact-text-dfhilo {
+  font-family: "latina3";
+  color: var(--color-4);
+  font-size: 21px;
+}
+.contact-text-junior {
+  font-family: "latina1";
+  font-size: 21px;
+  color: var(--color-4);
+  margin-left: 4px;
+}
+.contact-text-designer {
+  font-family: "latina5";
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 33px;
+  color: var(--color-1);
+}
+.contact-container-background {
+  height: 350px;
+  background-image: url(../../component/images/artcademi-manito.png),
+    url(../../component/images/background-contact.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: left 0 top 33px, right 0;
+  background-size: 30%, 20%;
+  margin-left: -28px;
+}
+.carrusel-blog {
+  height: 460px;
+  background-image: url(../../component/images/artcademi-backblog.png);
+  background-repeat: no-repeat;
+}

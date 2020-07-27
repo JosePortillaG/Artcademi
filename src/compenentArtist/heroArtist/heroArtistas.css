@@ -3,7 +3,16 @@
   background-position: top 0 left 0;
   background-repeat: no-repeat;
 }
+.container-img-artist {
+  display: flex;
+  justify-content: center;
+  padding-top: 77px;
+  padding-bottom: 11px;
+}
 .img-hero-artist {
+  position: absolute;
+  width: 244px;
+  height: auto;
   margin-top: 44px;
 }
 .hero-text-artist {

@@ -1,0 +1,16 @@
+.information-container-button {
+  display: flex;
+  padding-bottom: 30px;
+}
+.information-button {
+  width: 289px;
+  height: 63px;
+  border: 1px solid #148cc9;
+  border-radius: 26px;
+  background: #148cc9;
+  box-shadow: -2px 5px 8px 0 rgba(0, 0, 0, 0.6);
+}
+.information-button a {
+  font-family: "latina3";
+  letter-spacing: 0.8px;
+}
