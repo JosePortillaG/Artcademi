@@ -1,0 +1,52 @@
+.hero-text-seguir {
+  font-family: "latina1";
+  font-size: 24px;
+  color: var(--color-4);
+  text-align: center;
+}
+.arte-1 {
+  color: var(--color-1);
+}
+.arte-2 {
+  color: var(--color-3);
+}
+.arte-3 {
+  color: var(--color-2);
+}
+.arte-4 {
+  color: var(--color-4);
+}
+.hero-container-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+.hero-button {
+  width: 322px;
+  height: 40.3px;
+  border: 1px solid #148cc9;
+  border-radius: 26px;
+  background: #148cc9;
+  box-shadow: -2px 5px 8px 0 rgba(0, 0, 0, 0.6);
+}
+.hero-button a {
+  font-family: "latina3";
+  font-size: 14px;
+}
+@media screen and (min-width: 768px) {
+  .hero-text-seguir {
+    text-align: initial;
+    font-size: 42px;
+    line-height: 1em;
+    padding-left: 99px;
+  }
+  .hero-container-button {
+    justify-content: initial;
+    padding-left: 99px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .hero-text-seguir {
+    font-size: 32px;
+  }
+}

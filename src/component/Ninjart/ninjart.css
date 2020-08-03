@@ -56,7 +56,7 @@
 @media screen and (min-width: 768px) {
   .ninjart-container-all {
     display: grid;
-    grid-template-rows: [file1]1fr [file2]400px[finish];
+    grid-template-rows: [file1]1fr [file2]430px[finish];
   }
   .ninjart-container-text {
     grid-row: file1 / file2;
@@ -79,6 +79,10 @@
     grid-row: file2 / finish;
     margin-top: 40px;
     text-align: center;
+  }
+  .ninjart-container-img img {
+    width: 388px;
+    height: auto;
   }
 }
 @media screen and (min-width: 1024px) {

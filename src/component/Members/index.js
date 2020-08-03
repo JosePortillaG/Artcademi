@@ -1,14 +1,14 @@
 import React from "react";
 import fondopatreon from "../images/fondo-patreon.png";
 import patreon from "../images/logo-patreon.svg";
-import memberorange from "../images/artcademi-naranja.png";
-import memberblue from "../images/artcademi-azul.png";
-import memberpurple from "../images/artcademi-purpura.png";
+import memberorange from "../images/artcademi-naranjaescudo.png";
+import memberblue from "../images/artcademi-azulescudo.png";
+import memberpurple from "../images/artcademi-purpuraescudo.png";
 import "./members.css";
 
 export const Members = () => {
   return (
-    <section className="contact u-wrapper">
+    <section className="members-container-all u-wrapper">
       <div className="known-container-main">
         <div className="container-text-known">
           <p className="known-text-main">

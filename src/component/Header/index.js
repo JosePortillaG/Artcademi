@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../images/logo-arcademi.svg";
+import logo from "../images/artcademi-logo.svg";
 import discord from "../images/icon-discord.png";
 import patreon from "../images/logo-patreon.svg";
 import "./header.css";
@@ -32,9 +32,12 @@ export const Header = () => {
                 Artistas
               </NavLink>
             </li>
-            {/* <ul>
-                <li>dFhilo</li>
-                <li>Tu Marca</li>
+            <ul className="sub-artistas">
+              <li>
+                <NavLink to="/artistas/TuMarca">Tu Marca </NavLink>
+              </li>
+            </ul>
+            {/* <li>dFhilo</li>
                 <li>Tu Musica</li>
                 <li>Descargas</li>
                 <li>Tu Web</li>
@@ -48,7 +51,6 @@ export const Header = () => {
             {/* <ul>
                 <li>J Dilla</li>
               </ul> */}
-
             <li>
               <NavLink to="/conocenos" className="text-menu-conocenos">
                 Conocenos

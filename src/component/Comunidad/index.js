@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../images/logo-arcademi.svg";
+import Logo from "../images/artcademi-logo.svg";
 import discord from "../images/icon-discord.png";
 import "./comunidad.css";
 
@@ -9,10 +9,14 @@ export const Comunidad = () => {
       <div className="community-container">
         <div className="community-container-artcademi">
           <a href="#">
-            <img src={Logo} alt="logo-artcademi-community" />
+            <img
+              className="logo-artcademi-community"
+              src={Logo}
+              alt="logo-artcademi-community"
+            />
           </a>
           <div className="community-text">
-            <p>comunidad Discord</p>
+            <p>Comunidad Discord</p>
           </div>
         </div>
         <div className="community-container-icon-discord">

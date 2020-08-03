@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./buttonFollow.css";
 export const ButtonFollow = () => {
   return (
     <>

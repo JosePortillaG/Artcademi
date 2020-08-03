@@ -20,7 +20,7 @@ const cardListData = [
   {
     id: 2,
     title: "Diseñemos Tu Musica",
-    subtitle: "¿Quieres crear tu propio música?",
+    subtitle: "¿Quieres crear tu propia música?",
     textcontent: `La música siempre ha estado a mi lado, por eso desde hace 4 años,
     vengo desarrollando mi propio método para crear beats. En mis clases
     ONLINE te muesto todo lo que se y te dejo listo para que empieces con
@@ -51,61 +51,69 @@ export const Dfhilo = () => {
             alt="foto dfhilo"
           />
         </div>
-        <p>
-          <span className="dfhilo-text-dfhilo">dFhilo -</span>
-          <span className="dfhilo-text-junior"> Junior Portilla</span>
-        </p>
-        <p className="dfhilo-text-designer">Diseñador</p>
-        <p className="dfhilo-text-designer-content">
-          Hola! soy diseñador gráfico UX/UI musical, asi defino mis capacidades
-          y donde las aplico. Reunido tengo más de 10 años de experiencia en
-          creación de marca, diseño web, diseño musical y diseño de letras. Y
-          puedo ayudarte en lo que buscas.
-        </p>
-        <div className="logo-dfilo-hoz">
-          <img src={dfhiloHoz} alt="img logo dfhilo" />
-        </div>
-        <div className="container-icon-dfhilo">
-          <div className="container-nets-be">
-            <a href="www.behacen.net/artcademi">
-              <img className="icon-be-dfhilo" src={iconBe} alt="icon Be" />
-            </a>
-            <a className="dfhilo-nets-be" href="www.behacen.net/artcademi">
-              www.behacen.net/artcademi
-            </a>
+        <div className="container-component-dfhilo">
+          <div className="component-text">
+            <div className="dfhilo-nick-name">
+              <p className="dfhilo-text-dfhilo">dFhilo -</p>
+              <p className="dfhilo-text-junior"> Junior Portilla</p>
+            </div>
+            <p className="dfhilo-text-designer">Diseñador</p>
+            <p className="dfhilo-text-designer-content">
+              Hola! soy diseñador gráfico UX/UI musical, asi defino mis
+              capacidades y donde las aplico. Reunido tengo más de 10 años de
+              experiencia en creación de marca, diseño web, diseño musical y
+              diseño de letras. Y puedo ayudarte en lo que buscas.
+            </p>
           </div>
-          <div className="container-nets-linkedin">
-            <a href="www.linkedin.com/in/juniorportilla/">
-              <img
-                className="icon-linkedin-dfhilo"
-                src={iconLinkedin}
-                alt="icon Linkedin"
-              />
-            </a>
-            <a
-              className="dfhilo-nets-linkedin"
-              href="www.linkedin.com/in/juniorportilla/"
-            >
-              www.linkedin.com/in/juniorportilla/
-            </a>
+          <div className="logo-dfilo-hoz">
+            <img src={dfhiloHoz} alt="img logo dfhilo" />
           </div>
-          <div>
-            <img
-              className="icon-dfhilo-dfhilo"
-              src={icondFhilo}
-              alt="icon dfhilo"
-            />
+          <div className="component-nets">
+            <div className="container-icon-dfhilo">
+              <div className="container-nets-be">
+                <a href="www.behacen.net/artcademi">
+                  <img className="icon-be-dfhilo" src={iconBe} alt="icon Be" />
+                </a>
+                <a className="dfhilo-nets-be" href="www.behacen.net/artcademi">
+                  www.behacen.net/artcademi
+                </a>
+              </div>
+              <div className="container-nets-linkedin">
+                <a href="www.linkedin.com/in/juniorportilla/">
+                  <img
+                    className="icon-linkedin-dfhilo"
+                    src={iconLinkedin}
+                    alt="icon Linkedin"
+                  />
+                </a>
+                <a
+                  className="dfhilo-nets-linkedin"
+                  href="www.linkedin.com/in/juniorportilla/"
+                >
+                  www.linkedin.com/in/juniorportilla/
+                </a>
+              </div>
+              <div>
+                <img
+                  className="icon-dfhilo-dfhilo"
+                  src={icondFhilo}
+                  alt="icon dfhilo"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      {cardListData.map(({ id, title, subtitle, textcontent }) => (
-        <CardDesign
-          key={id}
-          title={title}
-          subtitle={subtitle}
-          textcontent={textcontent}
-        />
-      ))}
+      <div className="container-card">
+        {cardListData.map(({ id, title, subtitle, textcontent }) => (
+          <CardDesign
+            key={id}
+            title={title}
+            subtitle={subtitle}
+            textcontent={textcontent}
+          />
+        ))}
+      </div>
     </section>
   );
 };

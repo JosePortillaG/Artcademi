@@ -1,6 +1,5 @@
 import React from "react";
-import ImgHero from "../images/hero-jdilla-768.png";
-// import ImgFondo from "../images/hero-fondo.png";
+import ImgHero from "../images/landing-jdilla.png";
 import "./hero.css";
 
 export const Hero = () => {
@@ -8,7 +7,6 @@ export const Hero = () => {
     <section className="hero-main u-wrapper">
       <div className="hero-768">
         <div className="hero-container">
-          {/* <img src={ImgFondo} alt="Pintura de fondo para jdilla"></img> */}
           <img
             className="hero-img"
             src={ImgHero}

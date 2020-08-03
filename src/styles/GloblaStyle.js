@@ -16,10 +16,10 @@ body {
   padding: 0 30px
 }
 :root {
-  --color-1: #e49100;
-  --color-2: #148cc9;
-  --color-3: #6e4b94;
-  --color-4: #291d3e;
+  --color-1: #d47e00;
+  --color-2: #006eae;
+  --color-3: #542f70;
+  --color-4: #2e1a46;
   --parrafo: #17100d;
 }
 ul, li, h1, h2, h3, p, button {

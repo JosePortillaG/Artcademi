@@ -9,7 +9,7 @@
   font-family: "paytone1";
   color: var(--color-1);
   text-align: right;
-  padding-right: 41px;
+  padding-right: 17px;
   line-height: 0em;
 }
 .community-container-icon-discord {
@@ -18,7 +18,7 @@
 }
 
 .icon-discord-community {
-  width: 101.9px;
+  width: 70px;
   height: auto;
 }
 
@@ -28,19 +28,18 @@
     justify-content: center;
   }
   .community-container-icon-discord {
-    margin-left: -34px;
     align-self: flex-end;
+    margin-bottom: 11px;
   }
   .icon-discord-community {
     width: 88px;
     height: auto;
-    align-self: flex-end;
   }
   .logo-artcademi-community {
     width: 344px;
   }
   .community-text {
-    margin-left: 38px;
+    margin-right: -24px;
     font-size: 24px;
   }
 }

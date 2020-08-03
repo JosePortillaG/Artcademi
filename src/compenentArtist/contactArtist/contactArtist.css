@@ -16,8 +16,8 @@
   font-family: "latina1";
   font-size: 15px;
   text-align: center;
-  margin-top: 70px;
-  margin-bottom: 5px;
+  margin-top: 69px;
+  margin-bottom: 11px;
   color: var(--color-4);
 }
 .contact-container-button {
@@ -82,4 +82,48 @@
   height: 460px;
   background-image: url(../../component/images/artcademi-backblog.png);
   background-repeat: no-repeat;
+}
+@media screen and (min-width: 768px) {
+  .container-contact {
+    margin-top: 55.5px;
+  }
+  .contact-button a {
+    font-size: 17px;
+  }
+  .contact-text-dfhilo {
+    font-size: 32px;
+  }
+  .contact-text-junior {
+    font-size: 32px;
+  }
+  .contact-text-designer {
+    font-size: 32px;
+  }
+  .contact-container-background {
+    height: 400px;
+    background-image: url(../../component/images/artcademi-manitoX2.png),
+      url(../../component/images/artcademi-backwhatsappX2.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: left 0 top 33px, right 0;
+    background-size: 17%, 17%;
+    margin-left: initial;
+  }
+  .carrusel-blog {
+    max-width: 100%;
+    height: 343px;
+    object-fit: cover;
+    overflow: hidden;
+    background-image: url(../../component/images/artcademi-backblogX2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .contact-container-background {
+    background-size: 181px 319px, 179px auto;
+  }
+  .carrusel-blog {
+    height: 588px;
+  }
 }

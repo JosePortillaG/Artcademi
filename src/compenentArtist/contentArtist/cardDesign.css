@@ -1,5 +1,36 @@
+.design-your-brand {
+  background: var(--color-1);
+  margin: 30px;
+  padding-left: 30px;
+  padding-right: 35px;
+}
+.text-design {
+  font-family: "paytone1";
+  font-size: 34px;
+  line-height: 1em;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-left: 5px;
+  color: #fff;
+  text-align: center;
+}
+.text-develop {
+  font-family: "latina2";
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--parrafo);
+}
+.content-text-design {
+  font-family: "latina4";
+  font-size: 21px;
+  color: var(--parrafo);
+  padding-bottom: 60px;
+  padding-top: 30px;
+}
+
 .information-container-button {
   display: flex;
+  justify-content: center;
   padding-bottom: 30px;
 }
 .information-button {
@@ -13,4 +44,75 @@
 .information-button a {
   font-family: "latina3";
   letter-spacing: 0.8px;
+}
+@media screen and (min-width: 768px) {
+  .design-your-brand {
+    margin: 30px 25%;
+  }
+  .text-design {
+    font-size: 54px;
+    line-height: 0.9em;
+  }
+  .text-develop {
+    font-size: 26px;
+  }
+  .content-text-design {
+    line-height: 1.5;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .container-card {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+  }
+  .design-your-brand {
+    display: grid;
+    justify-content: center;
+    width: 222px;
+    margin: 10px;
+    padding: 0 40px;
+  }
+  .content-text-design {
+    padding-bottom: 30px;
+  }
+  .text-design {
+    font-size: 36px;
+  }
+  .text-develop {
+    font-size: 22px;
+  }
+  .content-text-design {
+    font-size: 20px;
+    padding: initial;
+    line-height: 1.3;
+  }
+  .information-container-button {
+    margin-top: 22px;
+    align-items: flex-end;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .container-card {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+  }
+  .design-your-brand {
+    display: grid;
+    width: 288px;
+    margin: 30px;
+  }
+  .content-text-design {
+    padding-bottom: 30px;
+  }
+  .text-design {
+    font-size: 44px;
+  }
+  .text-develop {
+    font-size: 24px;
+  }
+  .information-container-button {
+    align-items: flex-end;
+  }
 }

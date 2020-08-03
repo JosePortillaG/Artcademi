@@ -62,6 +62,9 @@
   margin-bottom: 111px;
 }
 @media screen and (min-width: 768px) {
+  .members-container-all {
+    margin-top: 111px;
+  }
   .known-text-main {
     font-size: 54px;
   }

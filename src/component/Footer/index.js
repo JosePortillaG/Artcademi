@@ -1,5 +1,12 @@
 import React from "react";
-import discord from "../images/icon-discord.png";
+import icondiscord from "../images/icon-discord.png";
+import iconfacebook from "../images/icon-facebook.png";
+import iconinstagram from "../images/icon-instagram.png";
+import iconpatreon from "../images/icon-patreon.png";
+import iconpinterest from "../images/icon-pinterest.png";
+import icontiktok from "../images/icon-tiktok.png";
+import iconyoutube from "../images/icon-youtube.png";
+
 import "./footer.css";
 
 export const Footer = () => {
@@ -48,33 +55,41 @@ export const Footer = () => {
           <p className="footer-nets">Nuestras Redes.</p>
           <div className="footer-container-nets">
             <div className="nets-1">
-              <img className="icon-patreon" src={discord} alt="icon-patreon" />
+              <img
+                className="icon-patreon"
+                src={iconpatreon}
+                alt="icon-patreon"
+              />
               <img
                 className="icon-discord-footer"
-                src={discord}
+                src={icondiscord}
                 alt="icon-discord"
               />
             </div>
             <div className="nets-2">
               <img
                 className="icon-pinterest"
-                src={discord}
+                src={iconpinterest}
                 alt="icon-pinterest"
               />
-              <img className="icon-youtube" src={discord} alt="icon-youtube" />
+              <img
+                className="icon-youtube"
+                src={iconyoutube}
+                alt="icon-youtube"
+              />
             </div>
             <div className="nets-3">
               <img
                 className="icon-instagram"
-                src={discord}
+                src={iconinstagram}
                 alt="icon-instagram"
               />
-              <img className="icon-tiktok" src={discord} alt="icon-tiktok" />
+              <img className="icon-tiktok" src={icontiktok} alt="icon-tiktok" />
             </div>
             <div className="nets-4">
               <img
                 className="icon-faceboock"
-                src={discord}
+                src={iconfacebook}
                 alt="icon-faceboock"
               />
             </div>

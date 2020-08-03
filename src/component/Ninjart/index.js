@@ -1,6 +1,6 @@
 import React from "react";
 import "./ninjart.css";
-import Ninjito from "../images/ninjito.png";
+import Ninjito from "../images/artcademi-ninjart.png";
 
 export const Ninjart = () => {
   return (

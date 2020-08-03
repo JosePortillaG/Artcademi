@@ -120,12 +120,19 @@
     text-align: initial;
     padding-left: 88px;
   }
+  .img-code {
+    content: url(../images/artcademi-iniciotipX2.png);
+  }
   .main-container-code {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
   .main-text-code {
+    padding: 0 22px;
     align-self: center;
+  }
+  .img-scearch {
+    content: url(../images/artcademi-iniciobuscarX2.png);
   }
 
   .main-container-joinUp {
@@ -133,9 +140,12 @@
     grid-template-columns: 1fr 1fr;
   }
   .main-text-joinUp {
+    padding: 0 33px;
     align-self: center;
   }
-
+  .img-barter {
+    content: url(../images/artcademi-iniciocomunicarX2.png);
+  }
   .main-container-barter {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -195,6 +205,5 @@
   .img-barter {
     width: 307px;
     height: auto;
-    padding-bottom: 22px;
   }
 }

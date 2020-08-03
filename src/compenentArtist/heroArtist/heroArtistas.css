@@ -1,5 +1,5 @@
 .container-hero-artist {
-  background-image: url(../../component/images/artcademi-backinicio.png);
+  background-image: url(../../component/images/hero-fondo.png);
   background-position: top 0 left 0;
   background-repeat: no-repeat;
 }
@@ -8,6 +8,9 @@
   justify-content: center;
   padding-top: 77px;
   padding-bottom: 11px;
+}
+.container-img-artist img:first-child {
+  height: fit-content;
 }
 .img-hero-artist {
   position: absolute;
@@ -39,4 +42,79 @@
   text-align: center;
   margin: 54px 0;
   color: var(--parrafo);
+}
+@media screen and (min-width: 768px) {
+  .container-hero-artist {
+    background-image: url(../../component/images/hero-fondo-768.png);
+    background-position: top 0 left 0;
+    background-repeat: no-repeat;
+    background-size: 95%;
+  }
+
+  .container-hero-artist::before {
+    background: linear-gradient(-28deg, transparent, #cfe1da);
+  }
+  .container-all-hero-artist {
+    display: grid;
+    grid-template-rows: [file1]1fr [file2]320px[finish];
+  }
+  .container-hero-artist-text {
+    margin-top: 111px;
+    grid-row: file1 / file2;
+  }
+  .container-img-artist {
+    text-align: center;
+    grid-row: file2 / finish;
+    padding-bottom: initial;
+  }
+  .hero-text-artist {
+    font-size: 54px;
+    padding: 0 22px;
+  }
+  .hero-text-artist-paragraph {
+    font-size: 24px;
+    padding: 0 88px;
+    margin: 11px 0;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .container-hero-artist {
+    background-image: url(../../component/images/hero-fondo-768.png),
+      url(../../component/images/artcademi-backwhatsappX2.png);
+    background-position: top 0 left 0, top 0 right 0;
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain, 188px;
+  }
+  .container-all-hero-artist {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-areas: "text img";
+    grid-template-rows: 1fr;
+  }
+  .container-img-artist {
+    grid-area: img;
+    align-self: end;
+  }
+  .container-img-artist img:first-child {
+    width: 388px;
+    height: 288px;
+    overflow: hidden;
+  }
+  .img-hero-artist {
+    width: 311px;
+  }
+  .container-hero-artist-text {
+    grid-area: text;
+  }
+  .hero-text-artist {
+    text-align: initial;
+    padding: initial;
+    font-size: 44px;
+    margin-left: 88px;
+  }
+  .hero-text-artist-paragraph {
+    text-align: initial;
+    margin-top: 33px;
+    padding: 0 99px;
+  }
 }

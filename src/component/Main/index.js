@@ -1,6 +1,10 @@
 import React from "react";
 import ImgPulgar from "../images/pulgar-arriba.png";
-import Ninjito from "../images/ninjito.png";
+import imgMiniSearch from "../images/artcademi-minicom.png";
+import imgCode from "../images/artcademi-iniciotip.png";
+// import imgSearch from "../images/artcademi-iniciobuscar.png";
+import imgBarter from "../images/artcademi-iniciocomunica.png";
+
 import "./mainStyle.css";
 
 export const Main = () => {
@@ -36,7 +40,7 @@ export const Main = () => {
             nuestro espacio de Discord.
           </p>
           <div className="main-content-img-code">
-            <img className="img-code" src={Ninjito} alt="img-code" />
+            <img className="img-code" src={imgCode} alt="img-code" />
           </div>
         </div>
         <div className="main-container-joinUp">
@@ -45,7 +49,7 @@ export const Main = () => {
             de arte que mas te guste.
           </p>
           <div className="main-content-img-scearch">
-            <img className="img-scearch" src={Ninjito} alt="img-search" />
+            <img className="img-scearch" src={imgMiniSearch} alt="img-search" />
           </div>
         </div>
         <div className="main-container-barter">
@@ -57,7 +61,7 @@ export const Main = () => {
             Intercambia tus conocimientos.
           </p>
           <div className="main-content-img-barter">
-            <img className="img-barter" src={Ninjito} alt="img-barter" />
+            <img className="img-barter" src={imgBarter} alt="img-barter" />
           </div>
         </div>
       </div>
