@@ -1,0 +1,42 @@
+.main-uweb-profile {
+  font-family: "latina1";
+  font-size: 34px;
+  color: var(--color-3);
+  text-align: center;
+}
+.main-uweb-content {
+  font-family: "latina2";
+  font-size: 21px;
+}
+.uweb-content-1 {
+  margin: 15px 0;
+}
+.uweb-content-2 {
+  margin: 15px 0;
+}
+.uweb-content-3 {
+  margin: 15px 0;
+}
+@media screen and (min-width: 768px) {
+  .container-main-uweb-all {
+    display: flex;
+    justify-content: center;
+  }
+  .container-main-uweb {
+    padding: 0 88px;
+  }
+  .main-uweb-profile {
+    margin: 33px 0;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .container-main-uweb-all {
+    display: grid;
+    grid-template-areas: "text img";
+    grid-template-columns: 55% 45%;
+  }
+  .container-main-uweb {
+    grid-area: text;
+    padding: initial;
+  }
+}

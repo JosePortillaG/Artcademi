@@ -9,15 +9,15 @@ export const Header = () => {
   return (
     <div className="header-menu">
       <header className="header-container-menu">
-        <NavLink to="/">
-          <img className="logo-artcademi" src={logo} alt={logo} />
+        <NavLink to="">
+          <img className="logo-artcademi" src={logo} alt="logo artcademi" />
         </NavLink>
         <input type="checkbox" id="open" className="menu-checkbox" />
         <label for="open" className="menu-open" />
         <nav className="menu">
           <ul>
             <li>
-              <NavLink exact to="/" className="text-menu-incio">
+              <NavLink exact to="" className="text-menu-incio">
                 Inicio
               </NavLink>
             </li>
@@ -31,12 +31,18 @@ export const Header = () => {
               <NavLink to="/artistas" className="text-menu-artistas">
                 Artistas
               </NavLink>
+              <ul className="sub-artistas">
+                <li>
+                  <NavLink to="/artistas/TuMarca">Tu Marca </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/artistas/TuMusica">Tu Musica </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/artistas/TuWeb">Tu Web </NavLink>
+                </li>
+              </ul>
             </li>
-            <ul className="sub-artistas">
-              <li>
-                <NavLink to="/artistas/TuMarca">Tu Marca </NavLink>
-              </li>
-            </ul>
             {/* <li>dFhilo</li>
                 <li>Tu Musica</li>
                 <li>Descargas</li>
@@ -68,14 +74,18 @@ export const Header = () => {
         <div className="contenedor-unete-menu">
           <p className="header-unete-text">Unete a nuestra comunidad</p>
           <span>
-            <NavLink to="/">
-              <img className="icon-discord" src={discord} alt={discord} />
+            <NavLink to="">
+              <img className="icon-discord" src={discord} alt="icono discord" />
             </NavLink>
           </span>
           <span className="container-button-menu">
             <button className="button-patreon-header">
-              <NavLink to="/">
-                <img className="logo-patreon" src={patreon} alt={patreon} />
+              <NavLink to="">
+                <img
+                  className="logo-patreon"
+                  src={patreon}
+                  alt="icono patreon"
+                />
               </NavLink>
             </button>
           </span>

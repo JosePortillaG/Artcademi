@@ -1,0 +1,36 @@
+.payment-umusic-price {
+  font-family: "latina2";
+  font-size: 21px;
+}
+.payment-umusic-price p {
+  margin: 20px 0;
+}
+
+.payment-umusic-methods {
+  font-family: "latina2";
+  font-size: 21px;
+}
+.payment-umusic-methods p {
+  margin: 20px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .container-payment-umusic-methods-all {
+    display: flex;
+    justify-content: center;
+  }
+  .container-payment-umusic-methods {
+    padding: 0 88px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .container-payment-umusic-methods-all {
+    display: grid;
+    grid-template-areas: "text img";
+    grid-template-columns: 55% 45%;
+  }
+  .container-payment-umusic-methods {
+    grid-area: text;
+    padding: initial;
+  }
+}

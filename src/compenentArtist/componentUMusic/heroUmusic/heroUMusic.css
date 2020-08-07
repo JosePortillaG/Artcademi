@@ -1,47 +1,47 @@
-.brand-container-img {
+.music-container-img {
   display: flex;
   justify-content: center;
   margin-bottom: 40px;
 }
-.brand-container-icon {
+.music-container-icon {
   display: flex;
   justify-content: center;
   margin-bottom: 40px;
 }
-.brand-container-icon img {
+.music-container-icon img {
   width: 58px;
   padding: 0 10px;
 }
 
 @media screen and (min-width: 768px) {
-  .brand-container-img img {
-    content: url(../../../component/images/artcademi-fondojuniorX2.png);
+  .music-container-img img {
+    content: url(../../../component/images/artcademi-logodfhiloX2.png);
     width: 588px;
   }
 }
 @media screen and (min-width: 1024px) {
-  .container-ubrand-all {
+  .container-umusic-all {
     display: grid;
     grid-template-columns: 45% 55%;
     grid-template-areas: "text img";
   }
-  .brand-container-icon {
+  .music-container-icon {
     display: initial;
     text-align: initial;
     margin-left: 33px;
   }
-  .brand-container-icon img {
+  .music-container-icon img {
     padding: initial;
     padding-right: 10px;
   }
 
-  .brand-container-img {
+  .music-container-img {
     grid-area: img;
     margin-bottom: initial;
     padding: initial;
     margin-top: 33px;
   }
-  .brand-container-img img {
+  .music-container-img img {
     object-fit: cover;
   }
 }

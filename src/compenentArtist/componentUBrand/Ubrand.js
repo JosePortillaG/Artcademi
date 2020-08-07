@@ -1,10 +1,15 @@
 import React from "react";
-
+import { HeroUBrand } from "./heroUbrand/heroUbrand";
+import { MainUBrand } from "./mainUbrand/MainUBrand";
+import { PaymentUBrand } from "./paymentUbrand/paymentUBrand";
+import { Footer } from "../../component/Footer";
 export const UBrand = () => {
   return (
     <>
-      <HeroArtist />
-      <UBrand />
+      <HeroUBrand />
+      <MainUBrand />
+      <PaymentUBrand />
+      <Footer />
     </>
   );
 };

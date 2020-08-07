@@ -1,0 +1,50 @@
+.text-ubrand {
+  font-family: "paytone1";
+  font-size: 35px;
+  text-align: center;
+  margin-top: 69px;
+  line-height: 1em;
+}
+.brand-text-design {
+  color: var(--color-1);
+}
+.brand-text-u {
+  color: var(--color-2);
+}
+.brand-text-brand {
+  color: var(--color-3);
+}
+.brand-content-text {
+  font-family: "latina2";
+  font-size: 20px;
+  color: var(--parrafo);
+  text-align: center;
+  margin: 40px 0;
+}
+@media screen and (min-width: 768px) {
+  .text-ubrand {
+    font-size: 54px;
+    margin-top: 111px;
+  }
+  .brand-content-text {
+    font-size: 24px;
+    padding: 0 111px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .container-ubrand-text {
+    grid-area: text;
+  }
+  .text-ubrand {
+    font-size: 44px;
+    text-align: initial;
+    margin-left: 33px;
+  }
+  .brand-content-text {
+    padding: initial;
+    text-align: initial;
+    margin: initial;
+    margin-left: 33px;
+    margin-top: 33px;
+  }
+}

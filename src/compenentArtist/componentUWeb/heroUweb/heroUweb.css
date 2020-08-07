@@ -1,47 +1,47 @@
-.brand-container-img {
+.web-container-img {
   display: flex;
   justify-content: center;
   margin-bottom: 40px;
 }
-.brand-container-icon {
+.web-container-icon {
   display: flex;
   justify-content: center;
   margin-bottom: 40px;
 }
-.brand-container-icon img {
+.web-container-icon img {
   width: 58px;
   padding: 0 10px;
 }
 
 @media screen and (min-width: 768px) {
-  .brand-container-img img {
-    content: url(../../../component/images/artcademi-fondojuniorX2.png);
+  .web-container-img img {
+    content: url(../../../component/images/artcademi-bulletcomX2.png);
     width: 588px;
   }
 }
 @media screen and (min-width: 1024px) {
-  .container-ubrand-all {
+  .container-uweb-all {
     display: grid;
     grid-template-columns: 45% 55%;
     grid-template-areas: "text img";
   }
-  .brand-container-icon {
+  .web-container-icon {
     display: initial;
     text-align: initial;
     margin-left: 33px;
   }
-  .brand-container-icon img {
+  .web-container-icon img {
     padding: initial;
     padding-right: 10px;
   }
 
-  .brand-container-img {
+  .web-container-img {
     grid-area: img;
     margin-bottom: initial;
     padding: initial;
     margin-top: 33px;
   }
-  .brand-container-img img {
+  .web-container-img img {
     object-fit: cover;
   }
 }
