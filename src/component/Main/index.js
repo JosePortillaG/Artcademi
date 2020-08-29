@@ -1,30 +1,47 @@
 import React from "react";
-import ImgPulgar from "../images/pulgar-arriba.png";
+import ImgPulgar from "../images/artcademi-manito.png";
 import imgMiniSearch from "../images/artcademi-minicom.png";
 import imgCode from "../images/artcademi-iniciotip.png";
 // import imgSearch from "../images/artcademi-iniciobuscar.png";
 import imgBarter from "../images/artcademi-iniciocomunica.png";
-
+import backgrouund from "../images/fondo-patreon.png";
 import "./mainStyle.css";
 
 export const Main = () => {
   return (
-    <section className="main-container u-wrapper">
+    <section className="main-container">
       <div className="main-container-768">
         <div className="main-container-thumb">
           <img className="thumb-up" src={ImgPulgar} alt="pulgar arriba" />
         </div>
         <div className="main-tex-container">
-          <p className="main-text-connect">Conecta los puntos</p>
-          <p className="main-text-follow">
-            y sigue tu corazón asi <br />
-            como el beatmaker
+          <p className="main-text-connect">
+            Conecta
+            <span className="main-text-point-connect"> los puntos</span>
           </p>
-          <div className="main-container-button">
-            <button className="main-button">
-              <a href="#">J Dilla</a>
-            </button>
+          <div className="main-container-follow-button">
+            <p className="main-text-follow">
+              y sigue tu corazón asi <br />
+              como el beatmaker
+            </p>
+            <div className="main-container-button">
+              <button className="main-button">
+                <a href="#">J Dilla</a>
+              </button>
+            </div>
           </div>
+        </div>
+        <div className="main-container-follow">
+          <img src={backgrouund} alt="fondo decorativo del texto" />
+          <p className="hero-text-seguir">
+            Seguir nuestro
+            <br />
+            camino es un
+            <span className="arte-1"> a</span>
+            <span className="arte-2">r</span>
+            <span className="arte-3">t</span>
+            <span className="arte-4">e.</span>
+          </p>
         </div>
       </div>
       <p className="main-container-how">

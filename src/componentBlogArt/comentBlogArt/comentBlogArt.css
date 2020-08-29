@@ -1,0 +1,103 @@
+.coment-title {
+  font-family: "paytone1";
+  font-size: 35px;
+  margin-bottom: 11px;
+  text-align: center;
+  color: var(--color-1);
+  text-transform: capitalize;
+}
+.coment-text {
+  font-family: "latina4";
+  font-size: 16px;
+  color: #424242;
+  margin-bottom: 111px;
+}
+.form-coment {
+  display: grid;
+  justify-content: center;
+  gap: 11px;
+  margin-bottom: 33px;
+}
+.form-textarea {
+  width: 100%;
+  height: 288px;
+  padding: 20px;
+  font-size: 24px;
+}
+.form-coment input {
+  margin: 11px 0;
+  font-size: 24px;
+  padding: 5px 0 5px 20px;
+}
+.form-container-checked {
+  display: grid;
+  grid-template-areas: "checked text";
+  align-items: center;
+}
+.form-container-checked input {
+  width: 34px;
+  height: 34px;
+}
+.form-container-checked label {
+  font-family: "latina4";
+  font-size: 12px;
+  margin: 15px;
+  color: #424242;
+}
+.form-button {
+  font-family: "latina4";
+  font-size: 24px;
+  text-align: center;
+  width: 322px;
+  height: 70px;
+  color: white;
+  background: var(--color-2);
+  border: 1px solid var(--color-2);
+  border-radius: 35px;
+  margin: 33px 0 111px 0;
+}
+.coment-author {
+  font-family: "latina2";
+  font-size: 21px;
+  line-height: 1.3em;
+  color: var(--parrafo);
+  margin-bottom: 111px;
+}
+@media screen and (min-width: 768px) {
+  .coment-title {
+    font-size: 54px;
+    text-align: initial;
+    margin: 0 88px;
+  }
+  .coment-text {
+    font-size: 24px;
+    margin: 0 88px 111px;
+  }
+  .form-coment {
+    display: initial;
+    justify-content: initial;
+  }
+  .form-textarea {
+    width: 100%;
+    margin-bottom: 11px;
+  }
+  .form-container-input {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 11px;
+  }
+  .form-container-checked {
+    grid-template-columns: 50px;
+    margin-top: 11px;
+  }
+  .container-form-button {
+    display: flex;
+    justify-content: center;
+  }
+  .coment-title {
+    text-align: center;
+  }
+  .coment-author {
+    margin: 0 88px 111px;
+  }
+}

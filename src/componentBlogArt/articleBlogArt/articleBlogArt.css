@@ -1,0 +1,12 @@
+.blog-article-text {
+  font-family: "latina2";
+  font-size: 21px;
+  line-height: 1.3em;
+  color: var(--parrafo);
+  margin: 111px 0;
+}
+@media screen and (min-width: 768px) {
+  .blog-article-text {
+    margin: 111px 88px;
+  }
+}

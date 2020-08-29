@@ -1,0 +1,81 @@
+.hero-blog-title {
+  font-family: "paytone1";
+  font-size: 35px;
+  margin-top: 111px;
+  line-height: 1em;
+}
+.blog-title-jdilla {
+  color: var(--color-1);
+}
+
+.blog-title-hands {
+  color: var(--color-4);
+}
+.blog-text {
+  font-family: "latina1";
+  font-size: 20px;
+  color: var(--color-3);
+  margin: 30px 0;
+}
+.container-author {
+  font-family: "latina2";
+  font-size: 20px;
+  grid-gap: 15px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 88px;
+}
+.blog-name-author {
+  font-family: "latina3";
+}
+.blog-img-jdilla {
+  width: 323px;
+}
+.blog-illustrator-author {
+  font-family: "latina1";
+  font-size: 20px;
+  text-align: right;
+  color: #424242;
+}
+@media screen and (min-width: 768px) {
+  .container-hero-blog-all {
+    margin-left: 88px;
+  }
+  .hero-blog-title {
+    font-size: 54px;
+  }
+  .blog-text {
+    margin: initial;
+    margin-bottom: 30px;
+    margin-top: 5px;
+    font-size: 44px;
+    line-height: 0.9em;
+  }
+  .container-author {
+    margin-bottom: initial;
+  }
+  .blog-img-jdilla {
+    content: url(../../component/images/artcademi-jdilla-X2.png);
+    width: 555px;
+    height: auto;
+  }
+  .blog-illustrator-author {
+    margin-right: 30px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .hero-blog-title br {
+    display: none;
+  }
+  .blog-title-hands {
+    margin-left: 11px;
+  }
+  .blog-text {
+    margin-right: 299px;
+  }
+  .container-blog-jdilla {
+    display: grid;
+    justify-content: center;
+    margin-top: 111px;
+  }
+}

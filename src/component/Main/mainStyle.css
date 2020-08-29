@@ -1,20 +1,43 @@
-@font-face {
-  font-family: "paytone1";
-  src: url(../../main/assets/fuentes/PaytoneOne-Regular.ttf);
-}
-@font-face {
-  font-family: "latina1";
-  src: url(../../main/assets/fuentes/LatinaEssential-LightIt/LatinaEssential-LightIt.woff2);
-}
-@font-face {
-  font-family: "latina4";
-  src: url(../../main/assets/fuentes/LatinaEssential-Light/LatinaEssential-Light.woff2);
+.main-container-768 {
+  margin-top: 111px;
+  padding: 30px;
+  background: #fff;
 }
 .main-container-thumb {
   display: flex;
   justify-content: center;
-  margin-top: 111px;
+
   margin-bottom: 25px;
+}
+.main-container-follow {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-container-follow img {
+  width: 222px;
+  opacity: 0.15;
+  height: auto;
+}
+.hero-text-seguir {
+  position: absolute;
+  font-family: "latina1";
+  font-size: 24px;
+  color: var(--color-4);
+  text-align: center;
+}
+.arte-1 {
+  color: var(--color-1);
+}
+.arte-2 {
+  color: var(--color-3);
+}
+.arte-3 {
+  color: var(--color-2);
+}
+.arte-4 {
+  color: var(--color-4);
 }
 .main-text-connect {
   font-family: "paytone1";
@@ -24,33 +47,37 @@
   color: var(--color-1);
 }
 .main-text-follow {
-  font-family: "latina1";
+  font-family: "latina3";
   font-size: 24px;
   text-align: center;
-  color: var(--color-3);
+  color: var(--color-4);
 }
 .main-container-button {
   text-align: center;
   margin: 20px 0;
 }
 .main-button {
-  width: 212px;
-  height: 70.1px;
+  width: 187px;
+  height: 62px;
+  outline: none;
   border-radius: 35px;
   background: var(--color-2);
   border: 1px solid var(--color-2);
   box-shadow: -2px 5px 8px 0 rgba(0, 0, 0, 0.6);
 }
+.main-button:active {
+  transform: scale(0.9);
+}
 .main-button a {
   font-family: "latina3";
-  font-size: 23px;
+  font-size: 22px;
 }
 .main-container-how {
   font-family: "paytone1";
   font-size: 35px;
   line-height: 1em;
   margin-top: 111px;
-  margin-bottom: 40px;
+  margin-bottom: 33px;
   text-align: center;
 }
 .main-how {
@@ -72,6 +99,7 @@
   text-align: center;
 }
 .main-content-img-code {
+  text-align: center;
   margin: 30px 0;
 }
 .img-code {
@@ -85,6 +113,7 @@
   text-align: center;
 }
 .main-content-img-scearch {
+  text-align: center;
   margin: 30px 0;
 }
 .img-scearch {
@@ -98,6 +127,7 @@
   text-align: center;
 }
 .main-content-img-barter {
+  text-align: center;
   margin: 30px 0;
 }
 .img-barter {
@@ -105,18 +135,37 @@
   height: 321px;
 }
 @media screen and (min-width: 768px) {
+  .main-container-768 {
+    margin-top: 11px;
+  }
   .main-container-thumb {
     display: none;
+  }
+  .main-container-follow {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-container-follow img {
+    width: 311px;
+    opacity: 0.5;
+    height: auto;
+  }
+  .hero-text-seguir {
+    position: absolute;
+    font-size: 30px;
+    line-height: 1em;
   }
   .main-text-connect {
     font-size: 54px;
   }
   .main-text-follow {
-    font-size: 42px;
+    font-size: 44px;
     line-height: 1em;
   }
   .main-container-how {
-    font-size: 50px;
+    font-size: 54px;
     text-align: initial;
     padding-left: 88px;
   }
@@ -156,16 +205,42 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .main-tex-container {
+  .main-container-768 {
     display: grid;
-    justify-content: right;
-    padding-right: 62px;
+    grid-template-areas: "thumb follow jdilla";
+    padding-left: 44px;
+  }
+  .main-container-thumb {
+    grid-area: thumb;
+    display: block;
+  }
+  .thumb-up {
+    width: 155px;
+  }
+  .main-tex-container {
+    grid-area: jdilla;
+  }
+  .main-container-follow-button {
+    display: grid;
+    grid-template-areas: "text button";
+    align-items: center;
+  }
+  .main-container-follow {
+    grid-area: follow;
   }
   .main-text-connect {
-    font-size: 44px;
+    letter-spacing: -2px;
+  }
+  .main-text-point-connect {
+    color: var(--color-4);
   }
   .main-text-follow {
-    font-size: 32px;
+    grid-area: text;
+    font-size: 20px;
+    line-height: 1.5em;
+  }
+  .main-container-button {
+    grid-area: button;
   }
   .main-container-how {
     font-size: 44px;

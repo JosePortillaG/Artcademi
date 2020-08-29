@@ -1,0 +1,24 @@
+.knowus-text-1 {
+  font-family: "latina4";
+  font-size: 21px;
+  color: var(--parrafo);
+  margin-top: 33px;
+}
+.knowus-text {
+  font-family: "latina4";
+  font-size: 21px;
+  color: var(--parrafo);
+  margin-top: 15px;
+}
+.container-white-knowus {
+  text-align: center;
+  background: white;
+  padding: 30px 25px;
+  margin-top: 33px;
+}
+.text-white-knowus {
+  font-family: "latina3";
+  font-size: 30px;
+  color: var(--parrafo);
+  line-height: 1.5em;
+}

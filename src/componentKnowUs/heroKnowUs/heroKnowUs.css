@@ -1,0 +1,29 @@
+.hero-know-title {
+  font-family: "paytone1";
+  font-size: 35px;
+  text-align: center;
+  line-height: 1em;
+  margin-top: 111px;
+  margin-bottom: 33px;
+}
+.text-education {
+  color: var(--color-1);
+}
+.text-creative {
+  color: var(--color-4);
+}
+.text-through {
+  color: var(--color-2);
+}
+.text-art {
+  color: var(--color-3);
+}
+.hero-know-text {
+  font-family: "latina4";
+  font-size: 21px;
+  text-align: center;
+  color: var(--parrafo);
+}
+.container-hero-know-logo {
+  text-align: center;
+}

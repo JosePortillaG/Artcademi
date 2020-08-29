@@ -31,7 +31,7 @@ export const Header = () => {
               <NavLink to="/artistas" className="text-menu-artistas">
                 Artistas
               </NavLink>
-              <ul className="sub-artistas">
+              {/* <ul className="sub-artistas">
                 <li>
                   <NavLink to="/artistas/TuMarca">Tu Marca </NavLink>
                 </li>
@@ -41,7 +41,7 @@ export const Header = () => {
                 <li>
                   <NavLink to="/artistas/TuWeb">Tu Web </NavLink>
                 </li>
-              </ul>
+              </ul> */}
             </li>
             {/* <li>dFhilo</li>
                 <li>Tu Musica</li>

@@ -1,6 +1,5 @@
 import React, { Fragment } from "react";
 // import "./styles/App/app.css";
-import { Header } from "./component/Header";
 import { Hero } from "./component/Hero";
 import { Main } from "./component/Main";
 import { Comunidad } from "./component/Comunidad";

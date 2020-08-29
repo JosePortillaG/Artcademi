@@ -3,6 +3,10 @@
   src: url(../../main/assets/fuentes/PaytoneOne-Regular.ttf);
 }
 @font-face {
+  font-family: "latina1";
+  src: url(../../main/assets/fuentes/LatinaEssential-MediumIt/LatinaEssential-MediumIt.woff2);
+}
+@font-face {
   font-family: "latina2";
   src: url(../../main/assets/fuentes/LatinaEssential-Medium/LatinaEssential-Medium.woff2);
 }
@@ -83,11 +87,11 @@
     height: auto;
   }
   .hero-text-uniendo {
-    font-size: 54px;
+    font-size: 56px;
     margin-bottom: 40px;
   }
   .hero-text-creativo {
-    font-size: 24px;
+    font-size: 20px;
     padding: 0 88px;
   }
 }
@@ -96,8 +100,9 @@
     background-image: url(../images/hero-fondo-768.png),
       url(../images/fondo-hero-right.png);
     background-position: top 0 left 0, top 0 right 0;
-    background-size: 40%, 17%;
+    background-size: 38%, 16%;
     background-repeat: no-repeat;
+    margin-bottom: 33px;
   }
   .hero-768 {
     display: grid;
@@ -109,13 +114,13 @@
     grid-area: content1;
   }
   .hero-text-uniendo {
-    font-size: 44px;
     text-align: left;
-    padding-left: 88px;
+    padding-left: 33px;
   }
   .hero-text-creativo {
-    font-size: 20px;
     text-align: left;
+    padding: 0 111px 0 33px;
+    line-height: 1.5em;
   }
   .hero-container {
     grid-area: image;

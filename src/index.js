@@ -11,6 +11,8 @@ import { NotFound } from "./component/pages/notFound/notFound";
 import { UBrand } from "./compenentArtist/componentUBrand/Ubrand";
 import { UMusic } from "./compenentArtist/componentUMusic/UMusic";
 import { UWeb } from "./compenentArtist/componentUWeb/UWeb";
+import { BlogArt } from "./componentBlogArt/blogArt";
+import { KnowUs } from "./componentKnowUs/knowUs";
 // ReactDOM.render(<App />, document.getElementById("App"));
 
 const allContainer = document.getElementById("App");
@@ -24,6 +26,8 @@ render(
           <Route exact path="/artistas/tuMarca" component={UBrand} />
           <Route exact path="/artistas/tuMusica" component={UMusic} />
           <Route exact path="/artistas/tuWeb" component={UWeb} />
+          <Route exact path="/blogArt" component={BlogArt} />
+          <Route exact path="/conocenos" component={KnowUs} />
           <Route path="*" component={NotFound} />
         </Switch>
       </Layout>

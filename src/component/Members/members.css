@@ -44,6 +44,7 @@
 }
 .contact-text-content {
   font-family: "latina4";
+  font-size: 20px;
   font-weight: 600;
   text-align: center;
   color: var(--parrafo);
@@ -53,12 +54,15 @@
   margin-top: 111px;
 }
 .member-orange {
+  width: 311px;
   margin-bottom: 60px;
 }
 .member-blue {
+  width: 311px;
   margin-bottom: 60px;
 }
 .member-purple {
+  width: 311px;
   margin-bottom: 111px;
 }
 @media screen and (min-width: 768px) {
