@@ -36,6 +36,8 @@
 .information-button {
   width: 289px;
   height: 63px;
+  cursor: pointer;
+  outline: none;
   border: 1px solid #148cc9;
   border-radius: 26px;
   background: #148cc9;
@@ -59,17 +61,21 @@
   .content-text-design {
     line-height: 1.5;
   }
+  .container-card {
+    margin-top: 111px;
+  }
 }
 @media screen and (min-width: 1024px) {
   .container-card {
     display: flex;
     justify-content: center;
     align-items: stretch;
+    margin-top: 88px;
   }
   .design-your-brand {
     display: grid;
     justify-content: center;
-    width: 222px;
+    width: 311px;
     margin: 10px;
     padding: 0 40px;
   }

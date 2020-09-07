@@ -43,7 +43,7 @@ export const Dfhilo = () => {
         src={imgHeaderdFhilo}
         alt="img-artist-dfhilo"
       />
-      <div className="dfhilo-container u-wrapper">
+      <div className="dfhilo-container">
         <div className="container-photo-dfhilo">
           <img
             className="img-photo-dfhilo"

@@ -3,8 +3,9 @@
   margin-top: 111px;
 }
 .dfhilo-container {
-  background: #fff;
+  border: 1px solid#fff;
   margin-top: -4px;
+  padding: 0 30px 33px;
 }
 .container-photo-dfhilo {
   text-align: center;
@@ -31,6 +32,8 @@
 .dfhilo-text-designer-content {
   font-family: "latina4";
   font-size: 21px;
+  padding: 30px;
+  background: #fff;
 }
 .logo-dfilo-hoz {
   text-align: center;
@@ -79,7 +82,7 @@
 
 @media screen and (min-width: 768px) {
   .img-header-dfhilo {
-    content: url(../../component/images/artcademi-modeloartistadfhilomedioX2.png);
+    content: url(../../component/images/artcademi-prototipodfhiloX2.png);
   }
   .container-photo-dfhilo {
     display: none;
@@ -91,7 +94,7 @@
     display: grid;
     grid-template-areas: "bio nets";
     grid-template-columns: 55% 45%;
-    grid-template-rows: 1fr;
+    grid-template-rows: 1fr 0;
   }
   .dfhilo-nick-name {
     display: flex;

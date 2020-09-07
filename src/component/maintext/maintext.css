@@ -1,0 +1,123 @@
+.maintext-container-all {
+  margin-bottom: 33px;
+}
+.maintext-container-img {
+  margin-top: 33px;
+}
+.maintext-container-img img {
+  width: 311px;
+}
+.maintext-title {
+  font-family: "paytone1";
+  font-size: 35px;
+  text-align: center;
+  line-height: 1em;
+  margin-top: 33px;
+}
+.maintext-education {
+  color: var(--color-1);
+}
+.maintext-creative {
+  color: var(--color-2);
+}
+.maintext-through {
+  color: var(--color-4);
+}
+.maintext-art {
+  color: var(--color-3);
+}
+.main-text-paragraph-one {
+  font-family: "latina2";
+  font-size: 20px;
+  color: var(--parrafo);
+  text-align: left;
+  margin-top: 22px;
+}
+.maintext-container-sentence {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 33px 0;
+}
+.maintext-container-sentence img {
+  width: 344px;
+  opacity: 0.5;
+}
+.maintext-sentence-text {
+  position: absolute;
+  font-family: "latina4";
+  font-size: 20px;
+  text-align: center;
+  color: var(--parrafo);
+}
+.main-text-paragraph-two {
+  font-family: "latina2";
+  font-size: 20px;
+  color: var(--parrafo);
+  text-align: left;
+}
+@media screen and (min-width: 768px) {
+  .maintext-container-img-text {
+    display: grid;
+    grid-template-areas:
+      ". img"
+      ". title"
+      ". texto";
+  }
+  .main-text-paragraph-one {
+    grid-area: texto;
+    margin-top: 33px;
+    padding: 0 88px;
+  }
+  .maintext-title {
+    grid-area: title;
+    font-size: 50px;
+    padding: 0 88px;
+  }
+  .maintext-container-img {
+    grid-area: img;
+    margin-top: 40px;
+    text-align: center;
+  }
+  .maintext-container-img img {
+    width: 333px;
+    height: auto;
+  }
+  .main-text-paragraph-two {
+    padding: 0 88px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .maintext-container-img-text {
+    display: grid;
+    grid-template-areas:
+      "title ."
+      "texto img";
+    grid-template-columns: 55% 45%;
+  }
+  .maintext-title {
+    padding: initial;
+    grid-area: title;
+    letter-spacing: -1px;
+    text-align: initial;
+  }
+  .maintext-container-img {
+    grid-area: img;
+    margin-top: -77px;
+    padding-left: 33px;
+  }
+  .main-text-paragraph-one {
+    padding: initial;
+    grid-area: texto;
+  }
+  .maintext-container-paragraph-sentence {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 55% 45%;
+  }
+  .main-text-paragraph-two {
+    padding: initial;
+    margin: 33px 0;
+  }
+}

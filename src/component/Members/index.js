@@ -9,12 +9,18 @@ import "./members.css";
 export const Members = () => {
   return (
     <section className="members-container-all u-wrapper">
-      <div className="known-container-main">
-        <div className="container-text-known">
-          <p className="known-text-main">
-            <span className="known-text-1">Conoce</span>
-            <span className="known-text-2"> nuestras</span>
-            <span className="known-text-3"> membresías.</span>
+      <div className="members-container-main">
+        <div className="members-container-title">
+          <p className="members-text-main">
+            <span className="members-text-1">Ponte la camisa </span>
+            <span className="members-text-2">
+              <span className="know-a">A</span>
+              <span className="know-r">r</span>
+              <span className="know-t">t</span>
+              cademi, Porque
+            </span>
+            <span className="members-text-3"> unidos</span>
+            <span className="members-text-4"> podemos.</span>
           </p>
         </div>
         <div className="container-button-knowUs">

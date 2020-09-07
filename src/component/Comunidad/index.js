@@ -1,33 +1,31 @@
 import React from "react";
-import Logo from "../images/artcademi-logo.svg";
 import discord from "../images/icon-discord.png";
+import { Link } from "react-router-dom";
+import { ArtLogo } from "../../componentGlb/Artlogo/ArtLogo";
+import Url from "../images/artcademi-logo.svg";
 import "./comunidad.css";
 
 export const Comunidad = () => {
   return (
-    <section className="community u-wrapper">
+    <section className="community">
       <div className="community-container">
-        <div className="community-container-artcademi">
-          <a href="#">
-            <img
-              className="logo-artcademi-community"
-              src={Logo}
-              alt="logo-artcademi-community"
-            />
-          </a>
-          <div className="community-text">
-            <p>Comunidad Discord</p>
-          </div>
-        </div>
+        <ArtLogo Logo={Url} subtitle="Comunidad Discord" />
         <div className="community-container-icon-discord">
-          <a href="#">
+          <Link to="/">
             <img
               className="icon-discord-community"
               src={discord}
               alt="icon.discord"
             />
-          </a>
+          </Link>
         </div>
+      </div>
+      <div className="community-container-discord">
+        <widgetbot
+          className="community-discord"
+          server="705202501967806514"
+          channel="#reglas"
+        ></widgetbot>
       </div>
     </section>
   );

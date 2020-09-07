@@ -1,0 +1,55 @@
+.ninjart-container-logo {
+  display: flex;
+  justify-content: center;
+  background: var(--background);
+  padding: 33px 0;
+  margin-top: 33px;
+}
+.ninjart-container-all {
+  background: var(--background);
+  margin: 33px 0;
+  padding: 30px 33px;
+}
+.ninjart-container-title {
+  padding-top: 33px;
+}
+.ninjart-subtitle {
+  font-family: "latina1";
+  font-size: 20px;
+  color: var(--color-4);
+  text-align: center;
+  margin: 11px 0;
+}
+.ninjart-container-img {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 33px;
+}
+.ninjart-img {
+  width: 311px;
+}
+@media screen and (min-width: 768px) {
+  .ninjart-subtitle {
+    margin: 11px 0 44px;
+  }
+  .ninjart-container-img {
+    padding-top: 44px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .ninjart-container-content {
+    display: grid;
+    grid-template-areas: "text img";
+    grid-template-columns: 50% 50%;
+  }
+  .ninjart-container-title {
+    text-align: left;
+  }
+  .hero-text-artist-paragraph {
+    grid-area: text;
+  }
+  .ninjart-container-img {
+    grid-area: img;
+    align-items: center;
+  }
+}

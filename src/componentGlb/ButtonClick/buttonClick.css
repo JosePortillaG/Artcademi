@@ -1,0 +1,20 @@
+.container-buttonclick {
+  text-align: center;
+}
+.buttonclick {
+  font-family: "latina2";
+  width: 160px;
+  height: 57px;
+  margin-bottom: 33px;
+  cursor: pointer;
+  outline: none;
+  text-align: center;
+  color: #fff;
+  border: 1px solid var(--color-2);
+  border-radius: 26px;
+  background: var(--color-2);
+  box-shadow: -2px 5px 8px 0 rgba(0, 0, 0, 0.6);
+}
+.buttonclick:active {
+  transform: scale(0.9);
+}

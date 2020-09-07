@@ -1,17 +1,9 @@
-@font-face {
-  font-family: "paytone1";
-  src: url(../../main/assets/fuentes/PaytoneOne-Regular.ttf);
+.community-container {
+  margin-top: 111px;
+  padding: 30px;
+  background: #f9dcac;
 }
-.community-container-artcademi {
-  text-align: center;
-}
-.community-text {
-  font-family: "paytone1";
-  color: var(--color-1);
-  text-align: right;
-  padding-right: 17px;
-  line-height: 0em;
-}
+
 .community-container-icon-discord {
   text-align: center;
   margin-top: 20px;
@@ -20,6 +12,16 @@
 .icon-discord-community {
   width: 70px;
   height: auto;
+}
+.community-container-discord {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 33px 0;
+}
+.community-discord {
+  width: 322px;
+  height: 400px;
 }
 
 @media screen and (min-width: 768px) {
@@ -35,10 +37,14 @@
     width: 88px;
     height: auto;
   }
-  .logo-artcademi-community {
-    width: 344px;
+  .community-discord {
+    width: 700px;
+    height: 500px;
   }
-  .community-text {
-    font-size: 22px;
+}
+@media screen and (min-width: 1024px) {
+  .community-discord {
+    width: 900px;
+    height: 600px;
   }
 }

@@ -24,6 +24,5 @@
 @media screen and (min-width: 1024px) {
   .hero-container-button {
     justify-content: initial;
-    padding-left: 55px;
   }
 }

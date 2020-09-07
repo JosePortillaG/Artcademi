@@ -1,17 +1,29 @@
-.known-text-main {
+.members-text-main {
   font-family: "paytone1";
   font-size: 35px;
   text-align: center;
   line-height: 1em;
 }
 
-.known-text-1 {
+.members-text-1 {
   color: var(--color-1);
 }
-.known-text-2 {
+.know-a {
+  color: var(--color-1);
+}
+.know-r {
   color: var(--color-2);
 }
-.known-text-3 {
+.know-t {
+  color: var(--color-3);
+}
+.members-text-2 {
+  color: var(--color-4);
+}
+.members-text-3 {
+  color: var(--color-2);
+}
+.members-text-4 {
   color: var(--color-3);
 }
 .container-button-knowUs {
@@ -43,9 +55,8 @@
   height: auto;
 }
 .contact-text-content {
-  font-family: "latina4";
+  font-family: "latina2";
   font-size: 20px;
-  font-weight: 600;
   text-align: center;
   color: var(--parrafo);
 }
@@ -69,8 +80,8 @@
   .members-container-all {
     margin-top: 111px;
   }
-  .known-text-main {
-    font-size: 54px;
+  .members-text-main {
+    font-size: 56px;
   }
   .contact-text-content {
     font-size: 22px;
@@ -96,10 +107,11 @@
   }
 }
 @media screen and (min-width: 1024px) {
-  .known-container-main {
-    grid-template-columns: 15% [texto]1fr [patreon]1fr;
-    grid-template-rows: [file1]100px [file2]1fr;
+  .members-container-main {
     display: grid;
+    grid-template-areas:
+      "title ."
+      "texto patreon";
     margin-top: 111px;
   }
   .container-button-knowUs {
@@ -116,13 +128,11 @@
   .logo-patreon-known {
     width: 88px;
   }
-  .container-text-known {
-    grid-area: texto;
-    grid-row: file1;
+  .members-container-title {
+    grid-area: title;
   }
 
-  .known-text-main {
-    font-size: 44px;
+  .members-text-main {
     text-align: left;
   }
   .container-contact-text {
@@ -130,12 +140,10 @@
     margin-top: 20px;
   }
   .contact-text-content {
-    font-size: 20px;
-    padding: 0 44px;
-    text-align: left;
-  }
-  .contact-text-content {
     padding: initial;
+    font-size: 20px;
+    padding-right: 44px;
+    text-align: left;
   }
   .container-contact-member {
     margin-top: 40px;

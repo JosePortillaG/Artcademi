@@ -1,9 +1,9 @@
 import React, { Fragment } from "react";
 // import "./styles/App/app.css";
 import { Hero } from "./component/Hero";
-import { Main } from "./component/Main";
+import { Start } from "./component/Start";
 import { Comunidad } from "./component/Comunidad";
-import { Ninjart } from "./component/Ninjart";
+import { MainText } from "./component/maintext";
 import { Members } from "./component/Members";
 import { Footer } from "./component/Footer";
 import { GlobalStyle } from "./styles/GloblaStyle";
@@ -13,9 +13,9 @@ function App() {
     <Fragment>
       <GlobalStyle />
       <Hero />
-      <Main />
+      <MainText />
+      <Start />
       <Comunidad />
-      <Ninjart />
       <Members />
       <Footer />
     </Fragment>
