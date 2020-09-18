@@ -1,7 +1,7 @@
 import React from "react";
-import bulletJunior from "../../../component/images/artcademi-bulletjunior.png";
-import iconBe from "../../../component/images/icon-be.png";
-import iconIn from "../../../component/images/icon-linkedin.png";
+import bulletJunior from "../../../componentHome/images/artcademi-bulletjunior.png";
+import iconBe from "../../../componentHome/images/icon-be.png";
+import iconIn from "../../../componentHome/images/icon-linkedin.png";
 import "./heroUbrand.css";
 import UHero from "../../contentArtist/Uhero";
 

@@ -1,5 +1,5 @@
 import React from "react";
-import logoArtCademi from "../../component/images/artcademi-logo.svg";
+import logoArtCademi from "../../componentHome/images/artcademi-logo.svg";
 import "./heroKnowUs.css";
 import { ArtLogo } from "../../componentGlb/Artlogo/ArtLogo";
 

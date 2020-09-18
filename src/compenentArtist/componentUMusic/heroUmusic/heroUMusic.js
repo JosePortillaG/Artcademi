@@ -1,9 +1,9 @@
 import React from "react";
 import UHero from "../../contentArtist/Uhero";
-import logodFhilo from "../../../component/images/artcademi-logodfhilo.png";
-import icondFhilo from "../../../component/images/icon-dfhilo.png";
-import iconYoutube from "../../../component/images/icon-youtube.png";
-import iconInstagram from "../../../component/images/icon-instagram.png";
+import logodFhilo from "../../../componentHome/images/artcademi-logodfhilo.png";
+import icondFhilo from "../../../componentHome/images/icon-dfhilo.png";
+import iconYoutube from "../../../componentHome/images/icon-youtube.png";
+import iconInstagram from "../../../componentHome/images/icon-instagram.png";
 import "./heroUMusic.css";
 export const HeroUMusic = () => {
   return (

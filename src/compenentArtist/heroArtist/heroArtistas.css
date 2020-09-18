@@ -1,5 +1,5 @@
 .container-hero-artist {
-  background-image: url(../../component/images/hero-fondo.png);
+  background-image: url(../../componentHome/images/hero-fondo.png);
   background-position: top 0 left 0;
   background-repeat: no-repeat;
 }
@@ -39,7 +39,7 @@
 }
 @media screen and (min-width: 768px) {
   .container-hero-artist {
-    background-image: url(../../component/images/hero-fondo-768.png);
+    background-image: url(../../componentHome/images/hero-fondo-768.png);
     background-position: top 0 left 0;
     background-repeat: no-repeat;
     background-size: 95%;
@@ -69,8 +69,8 @@
 }
 @media screen and (min-width: 1024px) {
   .container-hero-artist {
-    background-image: url(../../component/images/hero-fondo-768.png),
-      url(../../component/images/artcademi-backwhatsappX2.png);
+    background-image: url(../../componentHome/images/hero-fondo-768.png),
+      url(../../componentHome/images/artcademi-backwhatsappX2.png);
     background-position: top 0 left 0, top 0 right 0;
     background-repeat: no-repeat, no-repeat;
     background-size: contain, 188px;

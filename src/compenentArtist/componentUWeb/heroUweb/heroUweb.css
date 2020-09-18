@@ -15,7 +15,7 @@
 
 @media screen and (min-width: 768px) {
   .web-container-img img {
-    content: url(../../../component/images/artcademi-bulletcomX2.png);
+    content: url(../../../componentHome/images/artcademi-bulletcomX2.png);
     width: 588px;
   }
 }

@@ -1,6 +1,6 @@
 import React from "react";
-import joseFoto from "../../component/images/artcademi-joseefoto.png";
-import jdilla from "../../component/images/landing-jdilla.png";
+import joseFoto from "../../componentHome/images/artcademi-joseefoto.png";
+import jdilla from "../../componentHome/images/landing-jdilla.png";
 import "./heroBlogArt.css";
 
 export const HeroBlogArt = () => {

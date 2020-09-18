@@ -1,6 +1,6 @@
 import React from "react";
 import "./contactTeam.css";
-import iconWhatsapp from "../../component/images/icon-whatsapp.png";
+import iconWhatsapp from "../../componentHome/images/icon-whatsapp.png";
 import { Link } from "react-router-dom";
 
 export const ContactTeam = () => {

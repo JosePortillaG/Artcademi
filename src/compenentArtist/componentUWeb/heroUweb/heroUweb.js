@@ -1,8 +1,8 @@
 import React from "react";
-import bulletCom from "../../../component/images/artcademi-bulletcom.png";
-import icondFhilo from "../../../component/images/icon-dfhilo.png";
-import iconBe from "../../../component/images/icon-be.png";
-import iconIn from "../../../component/images/icon-linkedin.png";
+import bulletCom from "../../../componentHome/images/artcademi-bulletcom.png";
+import icondFhilo from "../../../componentHome/images/icon-dfhilo.png";
+import iconBe from "../../../componentHome/images/icon-be.png";
+import iconIn from "../../../componentHome/images/icon-linkedin.png";
 import "./heroUweb.css";
 import UHero from "../../contentArtist/Uhero";
 

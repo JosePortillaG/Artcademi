@@ -15,7 +15,7 @@
 
 @media screen and (min-width: 768px) {
   .brand-container-img img {
-    content: url(../../../component/images/artcademi-fondojuniorX2.png);
+    content: url(../../../componentHome/images/artcademi-fondojuniorX2.png);
     width: 588px;
   }
 }

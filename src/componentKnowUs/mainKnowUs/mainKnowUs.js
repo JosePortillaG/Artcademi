@@ -1,7 +1,7 @@
 import React from "react";
 import "./mainKnowUs.css";
 import { ArtLogo } from "../../componentGlb/Artlogo/ArtLogo";
-import imgArt from "../../component/images/artcademi-logo.svg";
+import imgArt from "../../componentHome/images/artcademi-logo.svg";
 import { PhotoCard } from "../contentTeam/photocard";
 import CardDesign from "../contentTeam/CardDesign";
 

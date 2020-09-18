@@ -1,6 +1,6 @@
 import React from "react";
-import backArtist from "../../component/images/artcademi-bulletartista.png";
-import imgHeroArtistas from "../../component/images/artcademi-artistaslogo.svg";
+import backArtist from "../../componentHome/images/artcademi-bulletartista.png";
+import imgHeroArtistas from "../../componentHome/images/artcademi-artistaslogo.svg";
 import "./heroArtistas.css";
 import { ButtonFollow } from "../../componentGlb/ButtonFollow/ButtonFollow";
 

@@ -1,6 +1,6 @@
 import React from "react";
 import { HeroUWeb } from "./heroUweb/heroUweb";
-import { Footer } from "../../component/Footer";
+import { Footer } from "../../componentHome/Footer";
 import { MainUWeb } from "./mainUweb/mainUweb";
 import { PaymentUWeb } from "./paymentUweb/paymentUweb";
 

@@ -1,5 +1,5 @@
 import React from "react";
-import modelArtist from "../../component/images/artcademi-modeloArtistaApp.png";
+import modelArtist from "../../componentHome/images/artcademi-modeloArtistaApp.png";
 import "./mainArtistas.css";
 import { ButtonClick } from "../../componentGlb/ButtonClick/ButtonClick";
 

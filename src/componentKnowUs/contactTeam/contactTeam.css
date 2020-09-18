@@ -78,8 +78,8 @@
 }
 .contact-container-background {
   height: 350px;
-  background-image: url(../../component/images/artcademi-manito.png),
-    url(../../component/images/background-contact.png);
+  background-image: url(../../componentHome/images/artcademi-manito.png),
+    url(../../componentHome/images/background-contact.png);
   background-repeat: no-repeat, no-repeat;
   background-position: left 0 top 33px, right 0;
   background-size: 30%, 20%;
@@ -87,7 +87,7 @@
 }
 .carrusel-blog {
   height: 460px;
-  background-image: url(../../component/images/artcademi-backblog.png);
+  background-image: url(../../componentHome/images/artcademi-backblog.png);
   background-repeat: no-repeat;
 }
 @media screen and (min-width: 768px) {
@@ -108,8 +108,8 @@
   }
   .contact-container-background {
     height: 400px;
-    background-image: url(../../component/images/artcademi-manitoX2.png),
-      url(../../component/images/artcademi-backwhatsappX2.png);
+    background-image: url(../../componentHome/images/artcademi-manitoX2.png),
+      url(../../componentHome/images/artcademi-backwhatsappX2.png);
     background-repeat: no-repeat, no-repeat;
     background-position: left 0 top 33px, right 0;
     background-size: 17%, 17%;
@@ -120,7 +120,7 @@
     height: 343px;
     object-fit: cover;
     overflow: hidden;
-    background-image: url(../../component/images/artcademi-backblogX2.png);
+    background-image: url(../../componentHome/images/artcademi-backblogX2.png);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;

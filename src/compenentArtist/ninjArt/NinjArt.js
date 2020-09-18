@@ -1,8 +1,8 @@
 import React from "react";
 import "./ninjart.css";
 import { ArtLogo } from "../../componentGlb/Artlogo/ArtLogo";
-import artLogo from "../../component/images/artcademi-logo.svg";
-import ninjito from "../../component/images/artcademi-ninjart.png";
+import artLogo from "../../componentHome/images/artcademi-logo.svg";
+import ninjito from "../../componentHome/images/artcademi-ninjart.png";
 
 export const NinjArt = () => {
   return (

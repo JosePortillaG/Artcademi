@@ -1,11 +1,11 @@
 import React, { Fragment } from "react";
 // import "./styles/App/app.css";
-import { Hero } from "./component/Hero";
-import { Start } from "./component/Start";
-import { Comunidad } from "./component/Comunidad";
-import { MainText } from "./component/maintext";
-import { Members } from "./component/Members";
-import { Footer } from "./component/Footer";
+import { Hero } from "./componentHome/Hero";
+import { Start } from "./componentHome/Start";
+import { Comunidad } from "./componentHome/Comunidad";
+import { MainText } from "./componentHome/maintext";
+import { Members } from "./componentHome/Members";
+import { Footer } from "./componentHome/Footer";
 import { GlobalStyle } from "./styles/GloblaStyle";
 
 function App() {

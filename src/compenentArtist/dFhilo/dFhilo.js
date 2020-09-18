@@ -1,11 +1,11 @@
 import React from "react";
-import imgHeaderdFhilo from "../../component/images/artcademi-modeloArtistadFhilo.png";
-import dFhiloPhoto from "../../component/images/artcademi-dfhilofoto.png";
-import dfhiloHoz from "../../component/images/dfhilo-hoz.png";
-import icondFhilo from "../../component/images/icon-dfhilo.png";
-import iconBe from "../../component/images/icon-be.png";
-import iconLinkedin from "../../component/images/icon-linkedin.png";
-import background from "../../component/images/fondo-patreon.png";
+import imgHeaderdFhilo from "../../componentHome/images/artcademi-modeloArtistadFhilo.png";
+import dFhiloPhoto from "../../componentHome/images/artcademi-dfhilofoto.png";
+import dfhiloHoz from "../../componentHome/images/dfhilo-hoz.png";
+import icondFhilo from "../../componentHome/images/icon-dfhilo.png";
+import iconBe from "../../componentHome/images/icon-be.png";
+import iconLinkedin from "../../componentHome/images/icon-linkedin.png";
+import background from "../../componentHome/images/fondo-patreon.png";
 import "./dFhilo.css";
 
 export const Dfhilo = () => {
