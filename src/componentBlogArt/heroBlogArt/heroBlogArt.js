@@ -8,7 +8,7 @@ export const HeroBlogArt = () => {
     <section className="container-hero-blog-all u-wrapper">
       <div className="container-hero-blog-title">
         <h1 className="hero-blog-title">
-          <span className="blog-title-jdilla">J Dilla</span>
+          <span className="blog-title-jdilla">J Dilla :</span>
           <br />
           <span className="blog-title-hands">Manos doradas</span>
         </h1>

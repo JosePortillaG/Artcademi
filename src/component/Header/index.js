@@ -58,8 +58,8 @@ export const Header = () => {
                 <li>J Dilla</li>
               </ul> */}
             <li>
-              <NavLink to="/conocenos" className="text-menu-conocenos">
-                Conocenos
+              <NavLink to="/equipo" className="text-menu-conocenos">
+                Equipo
               </NavLink>
             </li>
             {/* <ul>

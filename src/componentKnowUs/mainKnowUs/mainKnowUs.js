@@ -1,46 +1,65 @@
 import React from "react";
 import "./mainKnowUs.css";
+import { ArtLogo } from "../../componentGlb/Artlogo/ArtLogo";
+import imgArt from "../../component/images/artcademi-logo.svg";
+import { PhotoCard } from "../contentTeam/photocard";
+import CardDesign from "../contentTeam/CardDesign";
 
+const cardListData = [
+  {
+    id: 1,
+    title: "creamos la imagen de tu marca",
+    // subtitle: "Desarrollemos juntos tu marca.",
+    textcontent: `Desarrollemos juntos tu marca. El diseño de la imagen, es una parte esencial
+    para cualquier proyecto. Diseñemos juntos tu logo desde cero,
+    para que tu marca se diferencie del resto, transmita
+    personalidad y tenga un propósito claro.`,
+  },
+  {
+    id: 2,
+    title: "planeamos tu campaña digital",
+    // subtitle: "¿Quieres crear tu propia música?",
+    textcontent: `¿Quieres crear tu propia música? La música siempre ha estado a mi lado, por eso desde hace 4 años,
+    vengo desarrollando mi propio método para crear beats. En mis clases
+    ONLINE te muesto todo lo que se y te dejo listo para que empieces con
+    el pie derecho en este hermoso arte del beatmaking.`,
+  },
+  {
+    id: 3,
+    title: "diseñamos tu web",
+    // subtitle: "¿Te gusta el diseño de Artcademi.com?",
+    textcontent: `¿Te gusta el diseño de Artcademi.com? Junto a mi hermano josee y nuestro equipo de expertos, construiremos
+    tu sitio web soñado, que se ajuste a lo que necesitas en este nuevo
+    mercado electrónico, y estar en el mapa del mundo de hoy.`,
+  },
+];
 export const MainKnowUs = () => {
   return (
-    <section className="u-wrapper">
-      <p className="knowus-text-1">
-        La educación de la creatividad es un pilar fundamental de la nueva
-        educación, pero que es la creatividad?
-      </p>
-      <p p className="knowus-text">
-        La creatividad es la habilidad que permite generar asociaciones nuevas
-        entre conceptos o ideas ya conocidas, para producir soluciones nuevas y
-        originales.
-      </p>
-      <p p className="knowus-text">
-        Todos somos creativos por naturaleza, todos podemos ser artistas, todos
-        podemos ser emprendedores, esta habilidad puede ser desarrollada y
-        mejorada como todas las capacidades humanas. Creemos que entre más
-        herramientas interiorizadas tenga una persona más caminos nuevos puede
-        crear, ya que por medio de la creatividad salen nuevas expresiones para
-        el artista o soluciones innovadoras para el emprendedor.
-      </p>
-      <div className="container-white-knowus">
-        <p className="text-white-knowus">
-          “Queremos aportar al inicio de una nueva educación, que se pueda
-          construir en comunidad, en donde el artista o emprendedor pueda vivir
-          haciendo lo que lo hace feliz.”
-        </p>
+    <>
+      <div className="container-logo-main">
+        <ArtLogo Logo={imgArt} subtitle={"Equipo"} />
       </div>
-      <p p className="knowus-text">
-        Queremos ser parte de este nuevo enfoque en la educación, compartiendo
-        nuestro proceso creativo basado en nuestras experiencias e
-        investigaciones, para concientizar la importancia de la creatividad.
-      </p>
-      <p p className="knowus-text">
-        Nuestra plataforma va a permitir el apoyo mutuo entre usuarios, un
-        espacio que tenga conciencia de que las personas se pueden ayudar entre
-        si y mas en este momento de cambio a nivel global, en donde se necesitan
-        nuevas formas de educación. Donde además se apoye el trabajo de los
-        artistas para darse a conocer y llegar a personas que de otra forma no
-        accederán tan fácil a su contenido.
-      </p>
-    </section>
+      <section className="u-wrapper">
+        <div className="container-main-photo-card">
+          <PhotoCard
+            name="junior portilla"
+            position="CEO y Executive Producer"
+          />
+          <PhotoCard name="paula camona" position="Creative Producer" />
+          <PhotoCard name="jose portilla" position="Programador Web" />
+          <PhotoCard name="negrito" position="Gato Ninja" />
+        </div>
+        <div className="container-card">
+          {cardListData.map(({ id, title, subtitle, textcontent }) => (
+            <CardDesign
+              key={id}
+              title={title}
+              subtitle={subtitle}
+              textcontent={textcontent}
+            />
+          ))}
+        </div>
+      </section>
+    </>
   );
 };

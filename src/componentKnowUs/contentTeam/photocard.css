@@ -1,0 +1,54 @@
+.container-photo-card {
+  display: grid;
+  justify-items: center;
+}
+.container-photo {
+  width: 222px;
+  height: 244px;
+  margin: 11px 0;
+  padding: 11px;
+  background: var(--color-2);
+}
+.container-perfil {
+  text-align: center;
+}
+.card-name {
+  font-family: "latina3";
+  font-size: 20px;
+  text-transform: uppercase;
+  color: var(--color-4);
+}
+.card-position {
+  font-family: "latina4";
+  font-size: 20px;
+}
+.card-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0;
+  /* border-radius: 50%;
+  background: #fff;
+  border: 1px solid var(--color-4); */
+}
+.card-icon button {
+  width: 33px;
+  height: 33px;
+  font-size: 20px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 50%;
+  background: #fff;
+  border: 1px solid var(--color-4);
+}
+.card-icon button:active {
+  transform: scale(1.4);
+}
+@media screen and (min-width: 1024px) {
+  .container-photo {
+    width: 188px;
+  }
+  .card-position {
+    font-size: 17px;
+  }
+}

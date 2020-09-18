@@ -5,36 +5,9 @@ import dfhiloHoz from "../../component/images/dfhilo-hoz.png";
 import icondFhilo from "../../component/images/icon-dfhilo.png";
 import iconBe from "../../component/images/icon-be.png";
 import iconLinkedin from "../../component/images/icon-linkedin.png";
-import CardDesign from "../contentArtist/CardDesign";
+import background from "../../component/images/fondo-patreon.png";
 import "./dFhilo.css";
 
-const cardListData = [
-  {
-    id: 1,
-    title: "Diseño Tu Marca",
-    subtitle: "Desarrollemos juntos tu marca.",
-    textcontent: ` El diseño de la imagen, es una parte esencial en cualquier proyecto.
-    Diseñamos juntos tu logo desde cero, para que te permita diferenciar tu
-    marcade las demás, y transmita personalidad y propósito.`,
-  },
-  {
-    id: 2,
-    title: "Diseñemos Tu Musica",
-    subtitle: "¿Quieres crear tu propia música?",
-    textcontent: `La música siempre ha estado a mi lado, por eso desde hace 4 años,
-    vengo desarrollando mi propio método para crear beats. En mis clases
-    ONLINE te muesto todo lo que se y te dejo listo para que empieces con
-    el pie derecho en este hermoso arte del beatmaking.`,
-  },
-  {
-    id: 3,
-    title: "Diseñamos Tu Web",
-    subtitle: "¿Te gusta el diseño de Artcademi.com?",
-    textcontent: `Junto a mi hermano josee y nuestro equipo de expertos, construiremos
-    tu sitio web soñado, que se ajuste a lo que necesitas en este nuevo
-    mercado electrónico, y estar en el mapa del mundo de hoy.`,
-  },
-];
 export const Dfhilo = () => {
   return (
     <section>
@@ -104,15 +77,19 @@ export const Dfhilo = () => {
           </div>
         </div>
       </div>
-      <div className="container-card">
-        {cardListData.map(({ id, title, subtitle, textcontent }) => (
-          <CardDesign
-            key={id}
-            title={title}
-            subtitle={subtitle}
-            textcontent={textcontent}
-          />
-        ))}
+      <div className="container-frace-all">
+        <img
+          className="background-img"
+          src={background}
+          alt="fondo de texto artcademi"
+        />
+        <div className="container-frace">
+          <p>
+            "si queremos un mundo de paz y de justicia hay que poner
+            decididamente la inteligenci al servicio del amor."
+            <p className="dfhilo-address">Antoine de Saint-Exupery</p>
+          </p>
+        </div>
       </div>
     </section>
   );

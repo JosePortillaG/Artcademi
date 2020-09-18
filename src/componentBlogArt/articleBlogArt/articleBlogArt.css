@@ -1,9 +1,16 @@
 .blog-article-text {
   font-family: "latina2";
-  font-size: 21px;
+  font-size: 20px;
   line-height: 1.3em;
   color: var(--parrafo);
   margin: 111px 0;
+}
+.coment-author {
+  font-family: "latina1";
+  font-size: 20px;
+  line-height: 1.3em;
+  color: var(--parrafo);
+  margin-top: 33px;
 }
 @media screen and (min-width: 768px) {
   .blog-article-text {

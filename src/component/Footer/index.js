@@ -1,4 +1,5 @@
 import React from "react";
+import "./footer.css";
 import icondiscord from "../images/icon-discord.png";
 import iconfacebook from "../images/icon-facebook.png";
 import iconinstagram from "../images/icon-instagram.png";
@@ -7,7 +8,7 @@ import iconpinterest from "../images/icon-pinterest.png";
 import icontiktok from "../images/icon-tiktok.png";
 import iconyoutube from "../images/icon-youtube.png";
 
-import "./footer.css";
+import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
@@ -18,31 +19,31 @@ export const Footer = () => {
             <p>Vinculos</p>
             <ul className="footer-links">
               <li>
-                <a>Inicio</a>
+                <Link to="/">Inicio</Link>
               </li>
               <li>
-                <a>Artistas</a>
+                <Link to="/">Artistas</Link>
               </li>
               <li>
-                <a>Como ser un NinjArt</a>
+                <Link to="/">Como ser un NinjArt</Link>
               </li>
               <li>
-                <a>dFhilo</a>
+                <Link to="/">dFhilo</Link>
               </li>
               <li>
-                <a>Diseño tu Marca</a>
+                <Link to="/">Diseño tu Marca</Link>
               </li>
               <li>
-                <a>Diseñemos tu Musica</a>
+                <Link to="/">Diseñemos tu Musica</Link>
               </li>
               <li>
-                <a>Diseñamos tu Web</a>
+                <Link to="/">Diseñamos tu Web</Link>
               </li>
               <li>
-                <a>BlogArt</a>
+                <Link to="/">BlogArt</Link>
               </li>
               <li>
-                <a>Conocenos</a>
+                <Link to="/">Conocenos</Link>
               </li>
             </ul>
           </div>
@@ -105,9 +106,9 @@ export const Footer = () => {
           </form>
           <div className="footer-container-button">
             <button className="footer-button">
-              <a className="footer-text-link">
+              <Link to="/" className="footer-text-link">
                 Envia tu E-mail y descarga un regalo
-              </a>
+              </Link>
             </button>
           </div>
         </div>

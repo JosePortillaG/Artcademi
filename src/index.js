@@ -1,10 +1,8 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import { render } from "@testing-library/react";
-import { Header } from "./component/Header";
 import { Artistas } from "./compenentArtist/artistas";
 import Layout from "./component/Layout";
 import { NotFound } from "./component/pages/notFound/notFound";
@@ -27,7 +25,7 @@ render(
           <Route exact path="/artistas/tuMusica" component={UMusic} />
           <Route exact path="/artistas/tuWeb" component={UWeb} />
           <Route exact path="/blogArt" component={BlogArt} />
-          <Route exact path="/conocenos" component={KnowUs} />
+          <Route exact path="/equipo" component={KnowUs} />
           <Route path="*" component={NotFound} />
         </Switch>
       </Layout>

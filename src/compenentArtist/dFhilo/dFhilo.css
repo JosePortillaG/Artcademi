@@ -79,10 +79,34 @@
   width: 47px;
   height: 39px;
 }
+.container-frace-all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 44px 0;
+}
+.container-frace {
+  position: absolute;
+  font-family: "latina1";
+  font-size: 17px;
+  padding: 0 69px;
+  text-align: center;
+  color: var(--color-4);
+}
+.dfhilo-address {
+  font-family: "latina2";
+  margin-top: 5px;
+}
+.background-img {
+  width: 344px;
+  opacity: 0.5;
+}
 
 @media screen and (min-width: 768px) {
   .img-header-dfhilo {
     content: url(../../component/images/artcademi-prototipodfhiloX2.png);
+    margin-top: initial;
   }
   .container-photo-dfhilo {
     display: none;
@@ -114,5 +138,26 @@
     align-items: center;
     justify-content: center;
     padding-top: 111px;
+  }
+  .container-frace {
+    font-size: 20px;
+    padding: 0 155px;
+  }
+  .background-img {
+    width: 599px;
+    height: 244px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .container-component-dfhilo {
+    padding: 0 88px;
+  }
+  .container-frace {
+    padding: 0 288px;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .container-frace {
+    padding: 0 388px;
   }
 }

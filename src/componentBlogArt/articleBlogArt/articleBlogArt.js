@@ -62,6 +62,18 @@ export const ArticleBlogArt = () => {
         </p>
         Crear cualquier cosa de consecuencia o magnitud requiere un trabajo
         deliberado, incremental y consistente.
+        <p className="coment-author">
+          "Este artículo fue originalmente publicado en Smashing Magazine, y ha
+          sido traducido y adaptado al español por Staff Creativa, agencia de
+          marketing digital en Lima, Perú.
+          <br />
+          Si encuentras contenido online en inglés sobre diseño de páginas web,
+          gestión de imagen corporativa, marketing digital o packaging, no dudes
+          en contactarnos.
+          <br />
+          Nos encargaremos de traducirlo y publicarlo, y te avisaremos. Gracias
+          por compartirlo para nuestra comunidad!"
+        </p>
       </article>
     </section>
   );

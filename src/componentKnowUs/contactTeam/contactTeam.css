@@ -30,12 +30,19 @@
   justify-content: center;
   width: 322px;
   height: 48px;
+  cursor: pointer;
+  outline: none;
   border: 1px solid #1f5d26;
   border-radius: 26px;
   background-color: #1f5d26;
   box-shadow: -2px 5px 8px 0 rgba(0, 0, 0, 0.6);
 }
+.contact-button:active {
+  transform: scale(0.9);
+}
 .contact-button a {
+  display: flex;
+  align-items: center;
   font-family: "latina3";
   font-size: 13px;
   letter-spacing: 0.5px;
@@ -43,7 +50,7 @@
 .contact-icon-whatsapp {
   width: 41px;
   height: 34px;
-  padding-right: 10px;
+  margin-right: 5px;
 }
 
 .contact-p-dfhilo-junior {

@@ -56,15 +56,15 @@
   background: url("../images/artcademi-menuboton.png") no-repeat center;
   cursor: pointer;
   user-select: none;
-  margin-right: 11px;
+  margin: 11px;
 }
 
 .logo-artcademi {
   width: 122px;
-  padding: 10px 20px;
+  margin-left: 22px;
 }
 .contenedor-unete-menu {
-  width: 100%;
+  width: 70%;
   position: relative;
   margin-top: 10px;
 }
@@ -75,13 +75,14 @@
   color: #e49100;
 }
 .icon-discord {
-  width: 59.6px;
+  width: 55.6px;
   height: auto;
+  margin-right: 5px;
 }
 .container-button-menu {
   display: inline-block;
   position: absolute;
-  bottom: 17px;
+  bottom: 12px;
 }
 .logo-patreon {
   width: 55.6px;
@@ -100,7 +101,6 @@
 @media screen and (min-width: 768px) {
   .logo-artcademi {
     padding: initial;
-    padding-left: 20px;
   }
   .icon-discord {
     margin-right: 5px;
@@ -132,11 +132,11 @@
   }
   .text-menu-incio {
     background: none;
-    padding: 68px 37px;
+    padding: 68px 33px;
   }
   .text-menu-artistas {
     background: none;
-    padding: 68px 31px;
+    padding: 68px 28px;
   }
   .text-menu-blogart {
     background: none;
@@ -144,7 +144,7 @@
   }
   .text-menu-conocenos {
     background: none;
-    padding: 68px 13px;
+    padding: 68px 22px;
   }
   .text-menu-incio:hover {
     background: var(--color-2);
@@ -185,7 +185,7 @@
     padding: 50px 28px;
   }
   .text-menu-conocenos {
-    padding: 50px 13px;
+    padding: 50px 30px;
   }
   .contenedor-unete-menu {
     margin-right: 40px;
@@ -194,8 +194,11 @@
     font-size: 15px;
   }
   .icon-discord {
-    width: 83.44px;
-    margin-left: -25px;
+    margin-left: -11px;
+    margin-top: 11px;
+  }
+  .container-button-menu {
+    bottom: 3px;
   }
   .button-patreon-header {
     width: 140px;

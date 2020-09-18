@@ -26,7 +26,7 @@
   padding-bottom: 33px;
 }
 .ninjart-img {
-  width: 311px;
+  object-fit: none;
 }
 @media screen and (min-width: 768px) {
   .ninjart-subtitle {
@@ -37,19 +37,30 @@
   }
 }
 @media screen and (min-width: 1024px) {
-  .ninjart-container-content {
+  .ninjart-container-all {
     display: grid;
-    grid-template-areas: "text img";
+    grid-template-areas:
+      "title ."
+      "texto img";
     grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr;
   }
   .ninjart-container-title {
+    grid-area: title;
     text-align: left;
   }
+  .ninjart-subtitle {
+    margin: initial;
+    margin-top: 11px;
+    text-align: right;
+  }
   .hero-text-artist-paragraph {
-    grid-area: text;
+    grid-area: texto;
   }
   .ninjart-container-img {
+    padding-top: initial;
     grid-area: img;
     align-items: center;
+    margin-top: -111px;
   }
 }

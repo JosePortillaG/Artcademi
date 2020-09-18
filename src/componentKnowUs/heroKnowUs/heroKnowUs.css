@@ -1,3 +1,9 @@
+.container-logo-team {
+  display: flex;
+  justify-content: center;
+  margin-top: 111px;
+}
+
 .hero-know-title {
   font-family: "paytone1";
   font-size: 35px;
@@ -6,24 +12,23 @@
   margin-top: 111px;
   margin-bottom: 33px;
 }
-.text-education {
-  color: var(--color-1);
-}
-.text-creative {
-  color: var(--color-4);
-}
-.text-through {
-  color: var(--color-2);
-}
-.text-art {
-  color: var(--color-3);
-}
 .hero-know-text {
-  font-family: "latina4";
-  font-size: 21px;
+  font-family: "latina2";
+  font-size: 20px;
+  line-height: 1.3em;
   text-align: center;
   color: var(--parrafo);
 }
 .container-hero-know-logo {
   text-align: center;
+}
+@media screen and (min-width: 1024px) {
+  .hero-know-title {
+    padding: 0 122px;
+  }
+  .hero-know-text {
+    text-align: initial;
+    line-height: 1.4em;
+    padding: 0px 144px;
+  }
 }
